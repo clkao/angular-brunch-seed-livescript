@@ -1,0 +1,6316 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary
+  display block
+
+audio,
+canvas,
+video
+  display inline-block
+  *display inline
+  *zoom 1
+
+audio
+  &:not([controls])
+    display none
+    height 0
+
+[hidden]
+  display none
+
+html
+  font-size 100%
+  -webkit-text-size-adjust 100%
+  -ms-text-size-adjust 100%
+
+html,
+button,
+input,
+select,
+textarea
+  font-family sans-serif
+
+body
+  margin 0
+
+a
+  &:focus
+    outline thin dotted
+
+a:hover,
+a:active
+  outline 0
+
+h1
+  font-size 2em
+  margin 0.67em 0
+
+h2
+  font-size 1.5em
+  margin 0.83em 0
+
+h3
+  font-size 1.17em
+  margin 1em 0
+
+h4
+  font-size 1em
+  margin 1.33em 0
+
+h5
+  font-size 0.83em
+  margin 1.67em 0
+
+h6
+  font-size 0.75em
+  margin 2.33em 0
+
+abbr[title]
+  border-bottom 1px dotted
+
+b,
+strong
+  font-weight bold
+
+blockquote
+  margin 1em 40px
+
+dfn
+  font-style italic
+
+mark
+  background #ff0
+  color #000
+
+p,
+pre
+  margin 1em 0
+
+pre,
+code,
+kbd,
+samp
+  font-family monospace, serif
+  _font-family 'courier new', monospace
+  font-size 1em
+
+pre
+  white-space pre
+  white-space pre-wrap
+  word-wrap break-word
+
+q
+  quotes none
+
+q:before,
+q:after
+  content ''
+  content none
+
+small
+  font-size 75%
+
+sub,
+sup
+  font-size 75%
+  line-height 0
+  position relative
+  vertical-align baseline
+
+sup
+  top -0.5em
+
+sub
+  bottom -0.25em
+
+dl,
+menu,
+ol,
+ul
+  margin 1em 0
+
+dd
+  margin 0 0 0 40px
+
+menu,
+ol,
+ul
+  padding 0 0 0 40px
+
+nav ul,
+nav ol
+  list-style none
+  list-style-image none
+
+img
+  border 0
+  -ms-interpolation-mode bicubic
+
+svg
+  &:not(:root)
+    overflow hidden
+
+figure
+  margin 0
+
+form
+  margin 0
+
+fieldset
+  border 1px solid #c0c0c0
+  margin 0 2px
+  padding 0.35em 0.625em 0.75em
+
+legend
+  border 0
+  padding 0
+  white-space normal
+  *margin-left -7px
+
+button,
+input,
+select,
+textarea
+  font-size 100%
+  margin 0
+  vertical-align baseline
+  *vertical-align middle
+
+button,
+input
+  line-height normal
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"]
+  cursor pointer
+  -webkit-appearance button
+  *overflow visible
+
+button[disabled],
+input[disabled]
+  cursor default
+
+input[type="checkbox"],
+input[type="radio"]
+  box-sizing border-box
+  padding 0
+  *height 13px
+  *width 13px
+
+input[type="search"]
+  -webkit-appearance textfield
+  -moz-box-sizing content-box
+  -webkit-box-sizing content-box
+  box-sizing content-box
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button
+  -webkit-appearance none
+
+button::-moz-focus-inner,
+input::-moz-focus-inner
+  border 0
+  padding 0
+
+textarea
+  overflow auto
+  vertical-align top
+
+table
+  border-collapse collapse
+  border-spacing 0
+
+.metrouicss
+  .text-rest-state
+    color #000000
+  .text-rest2-state
+    color rgba(0, 0, 0, 0.6)
+  .text-hover-state
+    color rgba(0, 0, 0, 0.8)
+  .text-pressed-state
+    color rgba(0, 0, 0, 0.4)
+  #font
+    .header
+      font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 200
+      font-size 42pt
+      letter-spacing 0.00em
+      line-height 44pt
+      font-smooth always
+    .navigation
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 400
+      font-size 11pt
+      letter-spacing 0.01em
+      line-height 13pt
+      font-smooth always
+    .link
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 400
+      font-size 11pt
+      font-smooth always
+      line-height 13pt
+    .control
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 400
+      font-size 9pt
+      font-smooth always
+      line-height 11pt
+    .small
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 300
+      font-size 8pt
+      font-smooth always
+      line-height 10pt
+    .long-text
+      font-family 'PT Serif Caption', sans-serif, serif !important
+      font-weight 300
+      font-size 10pt
+      letter-spacing 0.02em
+      line-height 12pt
+      font-smooth always
+    .long-text-smaller
+      font-family 'PT Serif Caption', sans-serif, serif !important
+      font-weight 300
+      font-size 10pt
+      letter-spacing 0.02em
+      line-height 12pt
+      font-smooth always
+      font-size 9pt
+      line-height 11pt
+    .long-text-lead
+      font-family 'PT Serif Caption', sans-serif, serif !important
+      font-weight 300
+      font-size 10pt
+      letter-spacing 0.02em
+      line-height 12pt
+      font-smooth always
+      font-size 20pt
+      line-height 22pt
+  #state
+    .link
+      color #2e92cf
+      &:hover
+        color rgba(45, 173, 237, 0.8)
+      &:active
+        color rgba(45, 173, 237, 0.6)
+  h1
+    font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 200
+    font-size 42pt
+    letter-spacing 0.00em
+    line-height 44pt
+    font-smooth always
+    color #000000
+    &:hover
+      color rgba(0, 0, 0, 0.8)
+    &:active
+      color rgba(0, 0, 0, 0.4)
+  h2
+    font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 200
+    font-size 20pt
+    letter-spacing 0.01em
+    line-height 22pt
+    font-smooth always
+    color #000000
+    &:hover
+      color rgba(0, 0, 0, 0.8)
+    &:active
+      color rgba(0, 0, 0, 0.4)
+  h3
+    font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 200
+    font-size 20pt
+    letter-spacing 0.01em
+    line-height 22pt
+    font-smooth always
+    color rgba(0, 0, 0, 0.6)
+    font-size 16pt
+    line-height 24px
+    &:hover
+      color rgba(0, 0, 0, 0.8)
+    &:active
+      color rgba(0, 0, 0, 0.4)
+  h4
+    font-family 'Segoe UI Semibold', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 600
+    font-size 11pt
+    letter-spacing 0.01em
+    line-height 13pt
+    font-smooth always
+    color #000000
+    color rgba(0, 0, 0, 0.6)
+    &:hover
+      color rgba(0, 0, 0, 0.8)
+      color rgba(0, 0, 0, 0.8)
+    &:active
+      color rgba(0, 0, 0, 0.4)
+      color rgba(0, 0, 0, 0.4)
+  h5
+    font-family 'Segoe UI Semibold', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 600
+    font-size 11pt
+    letter-spacing 0.01em
+    line-height 13pt
+    font-smooth always
+    color rgba(0, 0, 0, 0.6)
+    font-size 90%
+    &:hover
+      color rgba(0, 0, 0, 0.8)
+    &:active
+      color rgba(0, 0, 0, 0.4)
+  h6
+    font-family 'Segoe UI Semibold', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 600
+    font-size 11pt
+    letter-spacing 0.01em
+    line-height 13pt
+    font-smooth always
+    color rgba(0, 0, 0, 0.6)
+    font-size 80%
+    &:hover
+      color rgba(0, 0, 0, 0.8)
+    &:active
+      color rgba(0, 0, 0, 0.4)
+  p
+    margin 0 0 10px
+    &.long-text
+      font-family 'PT Serif Caption', sans-serif, serif !important
+      font-weight 300
+      font-size 10pt
+      letter-spacing 0.02em
+      line-height 12pt
+      font-smooth always
+    &.indent
+      &:first-letter
+        padding-left 25px
+  .lead
+    font-size 120%
+    line-height 26px
+  abbr
+    &.initialism
+      font-size 90%
+      text-transform uppercase !important
+  abbr[title]
+    cursor help !important
+  address
+    display block
+    margin-bottom 20px
+    font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 300
+    font-size 11pt
+    letter-spacing 0.02em
+    line-height 14pt
+    font-smooth always
+    line-height 20px
+    font-style normal
+  blockquote
+    margin 0
+    padding 5px 20px
+    border-left 4px #ccc solid
+    display block
+    background-color rgba(204, 204, 204, 0.1)
+    p
+      margin-bottom 0
+    small
+      &:before
+        content '\2014'
+        color rgba(0, 0, 0, 0.4)
+        margin-right 5px
+    &.place-right
+      float none !important
+      text-align right
+      border 0
+      border-right 4px #ccc solid
+      small
+        text-align right
+        &:before
+          content ""
+        &:after
+          content '\2014'
+          color rgba(0, 0, 0, 0.4)
+          margin-left 5px
+  ul
+    list-style-position inside
+    list-style-type square
+    &:nth-child(1)
+      margin-left 25px
+    ul
+      list-style-type circle
+  ol
+    list-style-type decimal
+    &.icons
+      list-style-type none
+      li
+        line-height 24px
+  .place-left
+    float left !important
+    margin-right 10px
+  .place-right
+    float right !important
+    margin-left 10px
+  .pos-rel
+    position relative
+  .pos-abs
+    position absolute
+  .pos-fix
+    position fixed
+  .text-left
+    text-align left
+  .text-right
+    text-align right
+  .text-center
+    text-align center
+  .text-justify
+    text-align justify
+  .top-left
+    position absolute
+    top 0
+    left 0
+  .top-right
+    position absolute
+    top 0
+    right 0
+  .bottom-right
+    position absolute
+    bottom 0
+    right 0
+  .bottom-left
+    position absolute
+    bottom 0
+    left 0
+  .no-overflow
+    overflow hidden
+  .no-display
+    display none
+  .no-margin
+    margin 0
+  .no-padding
+    padding 0
+  .no-border
+    border 0
+  .no-border-all
+    border 0
+    *
+      border 0
+  .as-block
+    display block
+    float none !important
+  .as-inline-block
+    display inline-block
+  .nlm
+    margin-left 0 !important
+  .nrm
+    margin-right 0 !important
+  .clearfix
+    *zoom 1
+    &:after
+      clear both
+  .padding5
+    padding 5px
+  .padding10
+    padding 10px
+  .padding15
+    padding 15px
+  .padding20
+    padding 20px
+  .padding30
+    padding 30px
+  .padding40
+    padding 40px
+  .padding80
+    padding 80px
+  .selected
+    border 4px #2d89ef solid
+    &:after
+      width 0
+      height 0
+      border-top 40px solid #2d89ef
+      border-left 40px solid transparent
+      position absolute
+      display block
+      right 0
+      content "."
+      top 0
+      z-index 1001
+    &:before
+      position absolute
+      content "\e08a"
+      color #fff
+      right 4px
+      font-family iconFont
+      z-index 1002
+  .border
+    border 1px #ccc solid
+  .icon-large
+    &:before
+      vertical-align -10%
+      font-size 1.3333333333333333em
+  .icon-muted
+    color #eeeeee
+  .icon-border
+    border solid 1px #eeeeee
+    padding .2em .25em .15em
+  .icon-2x
+    font-size 2em
+    &.icon-border
+      border-width 2px
+  .icon-3x
+    font-size 3em
+    &.icon-border
+      border-width 3px
+  .icon-4x
+    font-size 4em
+    &.icon-border
+      border-width 4px
+  .icon-home
+    &:before
+      content "\e000"
+  .icon-newspaper
+    &:before
+      content "\e001"
+  .icon-pencil
+    &:before
+      content "\e002"
+  .icon-droplet
+    &:before
+      content "\e003"
+  .icon-pictures
+    &:before
+      content "\e004"
+  .icon-camera
+    &:before
+      content "\e005"
+  .icon-music
+    &:before
+      content "\e006"
+  .icon-film
+    &:before
+      content "\e007"
+  .icon-camera-2
+    &:before
+      content "\e008"
+  .icon-spades
+    &:before
+      content "\e009"
+  .icon-clubs
+    &:before
+      content "\e00a"
+  .icon-diamonds
+    &:before
+      content "\e00b"
+  .icon-broadcast
+    &:before
+      content "\e00c"
+  .icon-mic
+    &:before
+      content "\e00d"
+  .icon-book
+    &:before
+      content "\e00e"
+  .icon-file
+    &:before
+      content "\e00f"
+  .icon-new
+    &:before
+      content "\e010"
+  .icon-copy
+    &:before
+      content "\e011"
+  .icon-folder
+    &:before
+      content "\e012"
+  .icon-folder-2
+    &:before
+      content "\e013"
+  .icon-tag
+    &:before
+      content "\e014"
+  .icon-cart
+    &:before
+      content "\e015"
+  .icon-basket
+    &:before
+      content "\e016"
+  .icon-calculate
+    &:before
+      content "\e017"
+  .icon-support
+    &:before
+      content "\e018"
+  .icon-phone
+    &:before
+      content "\e019"
+  .icon-mail
+    &:before
+      content "\e01a"
+  .icon-location
+    &:before
+      content "\e01b"
+  .icon-compass
+    &:before
+      content "\e01c"
+  .icon-history
+    &:before
+      content "\e01d"
+  .icon-clock
+    &:before
+      content "\e01e"
+  .icon-bell
+    &:before
+      content "\e01f"
+  .icon-calendar
+    &:before
+      content "\e020"
+  .icon-printer
+    &:before
+      content "\e021"
+  .icon-mouse
+    &:before
+      content "\e022"
+  .icon-screen
+    &:before
+      content "\e023"
+  .icon-laptop
+    &:before
+      content "\e024"
+  .icon-mobile
+    &:before
+      content "\e025"
+  .icon-cabinet
+    &:before
+      content "\e026"
+  .icon-drawer
+    &:before
+      content "\e027"
+  .icon-drawer-2
+    &:before
+      content "\e028"
+  .icon-box
+    &:before
+      content "\e029"
+  .icon-box-add
+    &:before
+      content "\e02a"
+  .icon-box-remove
+    &:before
+      content "\e02b"
+  .icon-download
+    &:before
+      content "\e02c"
+  .icon-upload
+    &:before
+      content "\e02d"
+  .icon-database
+    &:before
+      content "\e02e"
+  .icon-flip
+    &:before
+      content "\e02f"
+  .icon-flip-2
+    &:before
+      content "\e030"
+  .icon-undo
+    &:before
+      content "\e031"
+  .icon-redo
+    &:before
+      content "\e032"
+  .icon-forward
+    &:before
+      content "\e033"
+  .icon-reply
+    &:before
+      content "\e034"
+  .icon-reply-2
+    &:before
+      content "\e035"
+  .icon-comments
+    &:before
+      content "\e036"
+  .icon-comments-2
+    &:before
+      content "\e037"
+  .icon-comments-3
+    &:before
+      content "\e038"
+  .icon-comments-4
+    &:before
+      content "\e039"
+  .icon-comments-5
+    &:before
+      content "\e03a"
+  .icon-user
+    &:before
+      content "\e03b"
+  .icon-user-2
+    &:before
+      content "\e03c"
+  .icon-user-3
+    &:before
+      content "\e03d"
+  .icon-busy
+    &:before
+      content "\e03e"
+  .icon-loading
+    &:before
+      content "\e03f"
+  .icon-loading-2
+    &:before
+      content "\e040"
+  .icon-search
+    &:before
+      content "\e041"
+  .icon-zoom-in
+    &:before
+      content "\e042"
+  .icon-zoom-out
+    &:before
+      content "\e043"
+  .icon-key
+    &:before
+      content "\e044"
+  .icon-key-2
+    &:before
+      content "\e045"
+  .icon-locked
+    &:before
+      content "\e046"
+  .icon-unlocked
+    &:before
+      content "\e047"
+  .icon-wrench
+    &:before
+      content "\e048"
+  .icon-equalizer
+    &:before
+      content "\e049"
+  .icon-cog
+    &:before
+      content "\e04a"
+  .icon-pie
+    &:before
+      content "\e04b"
+  .icon-bars
+    &:before
+      content "\e04c"
+  .icon-stats-up
+    &:before
+      content "\e04d"
+  .icon-gift
+    &:before
+      content "\e04e"
+  .icon-trophy
+    &:before
+      content "\e04f"
+  .icon-diamond
+    &:before
+      content "\e050"
+  .icon-coffee
+    &:before
+      content "\e051"
+  .icon-rocket
+    &:before
+      content "\e052"
+  .icon-meter-slow
+    &:before
+      content "\e053"
+  .icon-meter-medium
+    &:before
+      content "\e054"
+  .icon-meter-fast
+    &:before
+      content "\e055"
+  .icon-dashboard
+    &:before
+      content "\e056"
+  .icon-fire
+    &:before
+      content "\e057"
+  .icon-lab
+    &:before
+      content "\e058"
+  .icon-remove
+    &:before
+      content "\e059"
+  .icon-briefcase
+    &:before
+      content "\e05a"
+  .icon-briefcase-2
+    &:before
+      content "\e05b"
+  .icon-cars
+    &:before
+      content "\e05c"
+  .icon-bus
+    &:before
+      content "\e05d"
+  .icon-cube
+    &:before
+      content "\e05e"
+  .icon-cube-2
+    &:before
+      content "\e05f"
+  .icon-puzzle
+    &:before
+      content "\e060"
+  .icon-glasses
+    &:before
+      content "\e061"
+  .icon-glasses-2
+    &:before
+      content "\e062"
+  .icon-accessibility
+    &:before
+      content "\e063"
+  .icon-accessibility-2
+    &:before
+      content "\e064"
+  .icon-target
+    &:before
+      content "\e065"
+  .icon-target-2
+    &:before
+      content "\e066"
+  .icon-lightning
+    &:before
+      content "\e067"
+  .icon-power
+    &:before
+      content "\e068"
+  .icon-power-2
+    &:before
+      content "\e069"
+  .icon-clipboard
+    &:before
+      content "\e06a"
+  .icon-clipboard-2
+    &:before
+      content "\e06b"
+  .icon-playlist
+    &:before
+      content "\e06c"
+  .icon-grid-view
+    &:before
+      content "\e06d"
+  .icon-tree-view
+    &:before
+      content "\e06e"
+  .icon-cloud
+    &:before
+      content "\e06f"
+  .icon-cloud-2
+    &:before
+      content "\e070"
+  .icon-download-2
+    &:before
+      content "\e071"
+  .icon-upload-2
+    &:before
+      content "\e072"
+  .icon-upload-3
+    &:before
+      content "\e073"
+  .icon-link
+    &:before
+      content "\e074"
+  .icon-link-2
+    &:before
+      content "\e075"
+  .icon-flag
+    &:before
+      content "\e076"
+  .icon-flag-2
+    &:before
+      content "\e077"
+  .icon-attachment
+    &:before
+      content "\e078"
+  .icon-eye
+    &:before
+      content "\e079"
+  .icon-bookmark
+    &:before
+      content "\e07a"
+  .icon-bookmark-2
+    &:before
+      content "\e07b"
+  .icon-star
+    &:before
+      content "\e07c"
+  .icon-star-2
+    &:before
+      content "\e07d"
+  .icon-star-3
+    &:before
+      content "\e07e"
+  .icon-heart
+    &:before
+      content "\e07f"
+  .icon-heart-2
+    &:before
+      content "\e080"
+  .icon-thumbs-up
+    &:before
+      content "\e081"
+  .icon-thumbs-down
+    &:before
+      content "\e082"
+  .icon-plus
+    &:before
+      content "\e083"
+  .icon-minus
+    &:before
+      content "\e084"
+  .icon-help
+    &:before
+      content "\e085"
+  .icon-help-2
+    &:before
+      content "\e086"
+  .icon-blocked
+    &:before
+      content "\e087"
+  .icon-cancel
+    &:before
+      content "\e088"
+  .icon-cancel-2
+    &:before
+      content "\e089"
+  .icon-checkmark
+    &:before
+      content "\e08a"
+  .icon-minus-2
+    &:before
+      content "\e08b"
+  .icon-plus-2
+    &:before
+      content "\e08c"
+  .icon-enter
+    &:before
+      content "\e08d"
+  .icon-exit
+    &:before
+      content "\e08e"
+  .icon-loop
+    &:before
+      content "\e08f"
+  .icon-arrow-up-left
+    &:before
+      content "\e090"
+  .icon-arrow-up
+    &:before
+      content "\e091"
+  .icon-arrow-up-right
+    &:before
+      content "\e092"
+  .icon-arrow-right
+    &:before
+      content "\e093"
+  .icon-arrow-down-right
+    &:before
+      content "\e094"
+  .icon-arrow-down
+    &:before
+      content "\e095"
+  .icon-arrow-down-left
+    &:before
+      content "\e096"
+  .icon-arrow-left
+    &:before
+      content "\e097"
+  .icon-arrow-up-2
+    &:before
+      content "\e098"
+  .icon-arrow-right-2
+    &:before
+      content "\e099"
+  .icon-arrow-down-2
+    &:before
+      content "\e09a"
+  .icon-arrow-left-2
+    &:before
+      content "\e09b"
+  .icon-arrow-up-3
+    &:before
+      content "\e09c"
+  .icon-arrow-right-3
+    &:before
+      content "\e09d"
+  .icon-arrow-down-3
+    &:before
+      content "\e09e"
+  .icon-arrow-left-3
+    &:before
+      content "\e09f"
+  .icon-menu
+    &:before
+      content "\e0a0"
+  .icon-enter-2
+    &:before
+      content "\e0a1"
+  .icon-backspace
+    &:before
+      content "\e0a2"
+  .icon-backspace-2
+    &:before
+      content "\e0a3"
+  .icon-tab
+    &:before
+      content "\e0a4"
+  .icon-tab-2
+    &:before
+      content "\e0a5"
+  .icon-checkbox
+    &:before
+      content "\e0a6"
+  .icon-checkbox-unchecked
+    &:before
+      content "\e0a7"
+  .icon-checkbox-partial
+    &:before
+      content "\e0a8"
+  .icon-radio-checked
+    &:before
+      content "\e0a9"
+  .icon-radio-unchecked
+    &:before
+      content "\e0aa"
+  .icon-font
+    &:before
+      content "\e0ab"
+  .icon-paragraph-left
+    &:before
+      content "\e0ac"
+  .icon-paragraph-center
+    &:before
+      content "\e0ad"
+  .icon-paragraph-right
+    &:before
+      content "\e0ae"
+  .icon-paragraph-justify
+    &:before
+      content "\e0af"
+  .icon-left-to-right
+    &:before
+      content "\e0b0"
+  .icon-right-to-left
+    &:before
+      content "\e0b1"
+  .icon-share
+    &:before
+      content "\e0b2"
+  .icon-new-tab
+    &:before
+      content "\e0b3"
+  .icon-new-tab-2
+    &:before
+      content "\e0b4"
+  .icon-embed
+    &:before
+      content "\e0b5"
+  .icon-code
+    &:before
+      content "\e0b6"
+  .icon-bluetooth
+    &:before
+      content "\e0b7"
+  .icon-share-2
+    &:before
+      content "\e0b8"
+  .icon-share-3
+    &:before
+      content "\e0b9"
+  .icon-mail-2
+    &:before
+      content "\e0ba"
+  .icon-google
+    &:before
+      content "\e0bb"
+  .icon-google-plus
+    &:before
+      content "\e0bc"
+  .icon-google-drive
+    &:before
+      content "\e0bd"
+  .icon-facebook
+    &:before
+      content "\e0be"
+  .icon-instagram
+    &:before
+      content "\e0bf"
+  .icon-twitter
+    &:before
+      content "\e0c0"
+  .icon-feed
+    &:before
+      content "\e0c1"
+  .icon-youtube
+    &:before
+      content "\e0c2"
+  .icon-vimeo
+    &:before
+      content "\e0c3"
+  .icon-flickr
+    &:before
+      content "\e0c4"
+  .icon-picassa
+    &:before
+      content "\e0c5"
+  .icon-dribbble
+    &:before
+      content "\e0c6"
+  .icon-deviantart
+    &:before
+      content "\e0c7"
+  .icon-github
+    &:before
+      content "\e0c8"
+  .icon-github-2
+    &:before
+      content "\e0c9"
+  .icon-github-3
+    &:before
+      content "\e0ca"
+  .icon-github-4
+    &:before
+      content "\e0cb"
+  .icon-github-5
+    &:before
+      content "\e0cc"
+  .icon-git
+    &:before
+      content "\e0cd"
+  .icon-github-6
+    &:before
+      content "\e0ce"
+  .icon-wordpress
+    &:before
+      content "\e0cf"
+  .icon-joomla
+    &:before
+      content "\e0d0"
+  .icon-blogger
+    &:before
+      content "\e0d1"
+  .icon-tumblr
+    &:before
+      content "\e0d2"
+  .icon-yahoo
+    &:before
+      content "\e0d3"
+  .icon-amazon
+    &:before
+      content "\e0d4"
+  .icon-tux
+    &:before
+      content "\e0d5"
+  .icon-apple
+    &:before
+      content "\e0d6"
+  .icon-finder
+    &:before
+      content "\e0d7"
+  .icon-android
+    &:before
+      content "\e0d8"
+  .icon-windows
+    &:before
+      content "\e0d9"
+  .icon-soundcloud
+    &:before
+      content "\e0da"
+  .icon-skype
+    &:before
+      content "\e0db"
+  .icon-reddit
+    &:before
+      content "\e0dc"
+  .icon-linkedin
+    &:before
+      content "\e0dd"
+  .icon-lastfm
+    &:before
+      content "\e0de"
+  .icon-delicious
+    &:before
+      content "\e0df"
+  .icon-stumbleupon
+    &:before
+      content "\e0e0"
+  .icon-pinterest
+    &:before
+      content "\e0e1"
+  .icon-xing
+    &:before
+      content "\e0e2"
+  .icon-flattr
+    &:before
+      content "\e0e3"
+  .icon-foursquare
+    &:before
+      content "\e0e4"
+  .icon-paypal
+    &:before
+      content "\e0e5"
+  .icon-yelp
+    &:before
+      content "\e0e6"
+  .icon-libreoffice
+    &:before
+      content "\e0e7"
+  .icon-file-pdf
+    &:before
+      content "\e0e8"
+  .icon-file-openoffice
+    &:before
+      content "\e0e9"
+  .icon-file-word
+    &:before
+      content "\e0ea"
+  .icon-file-excel
+    &:before
+      content "\e0eb"
+  .icon-file-powerpoint
+    &:before
+      content "\e0ec"
+  .icon-file-zip
+    &:before
+      content "\e0ed"
+  .icon-file-xml
+    &:before
+      content "\e0ee"
+  .icon-file-css
+    &:before
+      content "\e0ef"
+  .icon-html5
+    &:before
+      content "\e0f0"
+  .icon-html5-2
+    &:before
+      content "\e0f1"
+  .icon-css3
+    &:before
+      content "\e0f2"
+  .icon-chrome
+    &:before
+      content "\e0f3"
+  .icon-firefox
+    &:before
+      content "\e0f4"
+  .icon-IE
+    &:before
+      content "\e0f5"
+  .icon-opera
+    &:before
+      content "\e0f6"
+  .icon-safari
+    &:before
+      content "\e0f7"
+  .icon-IcoMoon
+    &:before
+      content "\e0f8"
+  .icon-sunrise
+    &:before
+      content "\e0f9"
+  .icon-sun
+    &:before
+      content "\e0fa"
+  .icon-moon
+    &:before
+      content "\e0fb"
+  .icon-sun-2
+    &:before
+      content "\e0fc"
+  .icon-windy
+    &:before
+      content "\e0fd"
+  .icon-wind
+    &:before
+      content "\e0fe"
+  .icon-snowflake
+    &:before
+      content "\e0ff"
+  .icon-cloudy
+    &:before
+      content "\e100"
+  .icon-cloud-3
+    &:before
+      content "\e101"
+  .icon-weather
+    &:before
+      content "\e102"
+  .icon-weather-2
+    &:before
+      content "\e103"
+  .icon-weather-3
+    &:before
+      content "\e104"
+  .icon-lines
+    &:before
+      content "\e105"
+  .icon-cloud-4
+    &:before
+      content "\e106"
+  .icon-lightning-2
+    &:before
+      content "\e107"
+  .icon-lightning-3
+    &:before
+      content "\e108"
+  .icon-rainy
+    &:before
+      content "\e109"
+  .icon-rainy-2
+    &:before
+      content "\e10a"
+  .icon-windy-2
+    &:before
+      content "\e10b"
+  .icon-windy-3
+    &:before
+      content "\e10c"
+  .icon-snowy
+    &:before
+      content "\e10d"
+  .icon-snowy-2
+    &:before
+      content "\e10e"
+  .icon-snowy-3
+    &:before
+      content "\e10f"
+  .icon-weather-4
+    &:before
+      content "\e110"
+  .icon-cloudy-2
+    &:before
+      content "\e111"
+  .icon-cloud-5
+    &:before
+      content "\e112"
+  .icon-lightning-4
+    &:before
+      content "\e113"
+  .icon-sun-3
+    &:before
+      content "\e114"
+  .icon-moon-2
+    &:before
+      content "\e115"
+  .icon-cloudy-3
+    &:before
+      content "\e116"
+  .icon-cloud-6
+    &:before
+      content "\e117"
+  .icon-cloud-7
+    &:before
+      content "\e118"
+  .icon-lightning-5
+    &:before
+      content "\e119"
+  .icon-rainy-3
+    &:before
+      content "\e11a"
+  .icon-rainy-4
+    &:before
+      content "\e11b"
+  .icon-windy-4
+    &:before
+      content "\e11c"
+  .icon-windy-5
+    &:before
+      content "\e11d"
+  .icon-snowy-4
+    &:before
+      content "\e11e"
+  .icon-snowy-5
+    &:before
+      content "\e11f"
+  .icon-weather-5
+    &:before
+      content "\e120"
+  .icon-cloudy-4
+    &:before
+      content "\e121"
+  .icon-lightning-6
+    &:before
+      content "\e122"
+  .icon-thermometer
+    &:before
+      content "\e123"
+  .icon-compass-2
+    &:before
+      content "\e124"
+  .icon-none
+    &:before
+      content "\e125"
+  .icon-Celsius
+    &:before
+      content "\e126"
+  .icon-Fahrenheit
+    &:before
+      content "\e127"
+  .icon-forrst
+    &:before
+      content "\e128"
+  .icon-headphones
+    &:before
+      content "\e129"
+  .icon-bug
+    &:before
+      content "\e12a"
+  .icon-cart-2
+    &:before
+      content "\e12b"
+  .icon-earth
+    &:before
+      content "\e12c"
+  .icon-battery
+    &:before
+      content "\e12d"
+  .icon-list
+    &:before
+      content "\e12e"
+  .icon-grid
+    &:before
+      content "\e12f"
+  .icon-alarm
+    &:before
+      content "\e130"
+  .icon-location-2
+    &:before
+      content "\e131"
+  .icon-pointer
+    &:before
+      content "\e132"
+  .icon-diary
+    &:before
+      content "\e133"
+  .icon-eye-2
+    &:before
+      content "\e134"
+  .icon-console
+    &:before
+      content "\e135"
+  .icon-location-3
+    &:before
+      content "\e136"
+  .icon-move
+    &:before
+      content "\e137"
+  .icon-gift-2
+    &:before
+      content "\e138"
+  .icon-monitor
+    &:before
+      content "\e139"
+  .icon-mobile-2
+    &:before
+      content "\e13a"
+  .icon-switch
+    &:before
+      content "\e13b"
+  .icon-star-4
+    &:before
+      content "\e13c"
+  .icon-address-book
+    &:before
+      content "\e13d"
+  .icon-shit
+    &:before
+      content "\e13e"
+  .icon-cone
+    &:before
+      content "\e13f"
+  .icon-credit-card
+    &:before
+      content "\e140"
+  .icon-type
+    &:before
+      content "\e141"
+  .icon-volume
+    &:before
+      content "\e142"
+  .icon-volume-2
+    &:before
+      content "\e143"
+  .icon-locked-2
+    &:before
+      content "\e144"
+  .icon-warning
+    &:before
+      content "\e145"
+  .icon-info
+    &:before
+      content "\e146"
+  .icon-filter
+    &:before
+      content "\e147"
+  .icon-bookmark-3
+    &:before
+      content "\e148"
+  .icon-bookmark-4
+    &:before
+      content "\e149"
+  .icon-stats
+    &:before
+      content "\e14a"
+  .icon-compass-3
+    &:before
+      content "\e14b"
+  .icon-keyboard
+    &:before
+      content "\e14c"
+  .icon-award-fill
+    &:before
+      content "\e14d"
+  .icon-award-stroke
+    &:before
+      content "\e14e"
+  .icon-beaker-alt
+    &:before
+      content "\e14f"
+  .icon-beaker
+    &:before
+      content "\e150"
+  .icon-move-vertical
+    &:before
+      content "\e151"
+  .icon-move-horizontal
+    &:before
+      content "\e153"
+  .icon-steering-wheel
+    &:before
+      content "\e152"
+  .icon-volume-3
+    &:before
+      content "\e154"
+  .icon-volume-mute
+    &:before
+      content "\e155"
+  .icon-play
+    &:before
+      content "\e156"
+  .icon-pause
+    &:before
+      content "\e157"
+  .icon-stop
+    &:before
+      content "\e158"
+  .icon-eject
+    &:before
+      content "\e159"
+  .icon-first
+    &:before
+      content "\e15a"
+  .icon-last
+    &:before
+      content "\e15b"
+  .icon-play-alt
+    &:before
+      content "\e15c"
+  .icon-battery-empty
+    &:before
+      content "\e15d"
+  .icon-battery-half
+    &:before
+      content "\e15e"
+  .icon-battery-full
+    &:before
+      content "\e15f"
+  .icon-battery-charging
+    &:before
+      content "\e160"
+  .icon-left-quote
+    &:before
+      content "\e161"
+  .icon-right-quote
+    &:before
+      content "\e162"
+  .icon-left-quote-alt
+    &:before
+      content "\e163"
+  .icon-right-quote-alt
+    &:before
+      content "\e164"
+  .icon-smiley
+    &:before
+      content "\e165"
+  .icon-umbrella
+    &:before
+      content "\e166"
+  .icon-info-2
+    &:before
+      content "\e167"
+  .icon-chart-alt
+    &:before
+      content "\e168"
+  .icon-save
+    &:before
+      content "\e169"
+  .fg-color-blue
+    color #2d89ef !important
+  .fg-color-blueLight
+    color #eff4ff !important
+  .fg-color-blueDark
+    color #2b5797 !important
+  .fg-color-green
+    color #00a300 !important
+  .fg-color-greenLight
+    color #99b433 !important
+  .fg-color-greenDark
+    color #1e7145 !important
+  .fg-color-red
+    color #b91d47 !important
+  .fg-color-yellow
+    color #ffc40d !important
+  .fg-color-orange
+    color #e3a21a !important
+  .fg-color-orangeDark
+    color #da532c !important
+  .fg-color-pink
+    color #9f00a7 !important
+  .fg-color-pinkDark
+    color #7e3878 !important
+  .fg-color-purple
+    color #603cba !important
+  .fg-color-darken
+    color #1d1d1d !important
+  .fg-color-lighten
+    color #d5e7ec !important
+  .fg-color-white
+    color #ffffff !important
+  .fg-color-grayDark
+    color #525252 !important
+  .fg-color-magenta
+    color #ff0097 !important
+  .fg-color-teal
+    color #00aba9 !important
+  .fg-color-redLight
+    color #ee1111 !important
+  .bg-color-blue
+    background-color #2d89ef !important
+  .bg-color-blueLight
+    background-color #eff4ff !important
+  .bg-color-blueDark
+    background-color #2b5797 !important
+  .bg-color-green
+    background-color #00a300 !important
+  .bg-color-greenLight
+    background-color #99b433 !important
+  .bg-color-greenDark
+    background-color #1e7145 !important
+  .bg-color-red
+    background-color #b91d47 !important
+  .bg-color-yellow
+    background-color #ffc40d !important
+  .bg-color-orange
+    background-color #e3a21a !important
+  .bg-color-orangeDark
+    background-color #da532c !important
+  .bg-color-pink
+    background-color #9f00a7 !important
+  .bg-color-pinkDark
+    background-color #7e3878 !important
+  .bg-color-purple
+    background-color #603cba !important
+  .bg-color-darken
+    background-color #1d1d1d !important
+  .bg-color-lighten
+    background-color #d5e7ec !important
+  .bg-color-white
+    background-color #ffffff !important
+  .bg-color-grayDark
+    background-color #525252 !important
+  .bg-color-magenta
+    background-color #ff0097 !important
+  .bg-color-teal
+    background-color #00aba9 !important
+  .bg-color-redLight
+    background-color #ee1111 !important
+  [class*=border-color]
+    border 2px solid
+  .border-color-blue
+    border-color #2d89ef !important
+  .border-color-blueLight
+    border-color #eff4ff !important
+  .border-color-blueDark
+    border-color #2b5797 !important
+  .border-color-green
+    border-color #00a300 !important
+  .border-color-greenLight
+    border-color #99b433 !important
+  .border-color-greenDark
+    border-color #1e7145 !important
+  .border-color-red
+    border-color #b91d47 !important
+  .border-color-yellow
+    border-color #ffc40d !important
+  .border-color-orange
+    border-color #e3a21a !important
+  .border-color-orangeDark
+    border-color #da532c !important
+  .border-color-pink
+    border-color #9f00a7 !important
+  .border-color-pinkDark
+    border-color #7e3878 !important
+  .border-color-purple
+    border-color #603cba !important
+  .border-color-darken
+    border-color #1d1d1d !important
+  .border-color-lighten
+    border-color #d5e7ec !important
+  .border-color-white
+    border-color #ffffff !important
+  .border-color-grayDark
+    border-color #525252 !important
+  .border-color-magenta
+    border-color #ff0097 !important
+  .border-color-teal
+    border-color #00aba9 !important
+  .border-color-redLight
+    border-color #ee1111 !important
+  *:hover[class=outline-color]
+    outline 3px solid
+  .outline-color-blue
+    outline-color #2d89ef !important
+  .outline-color-blueLight
+    outline-color #eff4ff !important
+  .outline-color-blueDark
+    outline-color #2b5797 !important
+  .outline-color-green
+    outline-color #00a300 !important
+  .outline-color-greenLight
+    outline-color #99b433 !important
+  .outline-color-greenDark
+    outline-color #1e7145 !important
+  .outline-color-red
+    outline-color #b91d47 !important
+  .outline-color-yellow
+    outline-color #ffc40d !important
+  .outline-color-orange
+    outline-color #e3a21a !important
+  .outline-color-orangeDark
+    outline-color #da532c !important
+  .outline-color-pink
+    outline-color #9f00a7 !important
+  .outline-color-pinkDark
+    outline-color #7e3878 !important
+  .outline-color-purple
+    outline-color #603cba !important
+  .outline-color-darken
+    outline-color #1d1d1d !important
+  .outline-color-lighten
+    outline-color #d5e7ec !important
+  .outline-color-white
+    outline-color #ffffff !important
+  .outline-color-grayDark
+    outline-color #525252 !important
+  .outline-color-magenta
+    outline-color #ff0097 !important
+  .outline-color-teal
+    outline-color #00aba9 !important
+  .outline-color-redLight
+    outline-color #ee1111 !important
+  .item-margin
+    margin 0 10px 10px 0
+  .column-margin
+    margin 0 20px 10px 0
+  .group-margin
+    margin 0 80px 10px 0
+  .brick
+    position relative
+    margin 0 10px 10px 0
+    display block
+    float none !important
+  .short-brick
+    position relative
+    margin 0 10px 10px 0
+    display block
+    float none !important
+    width 150px
+    height 150px
+  .medium-brick
+    position relative
+    margin 0 10px 10px 0
+    display block
+    float none !important
+    width 310px
+    height 150px
+  .square
+    display block
+    float left
+    margin-right 10px
+    height 20px
+    width 20px
+  .one-column
+    -moz-columns 1
+    -webkit-columns 1
+    columns 1
+    -moz-column-gap 20px
+    -webkit-column-gap 20px
+    column-gap 20px
+  .two-columns
+    -moz-columns 2
+    -webkit-columns 2
+    columns 2
+    -moz-column-gap 20px
+    -webkit-column-gap 20px
+    column-gap 20px
+  .three-columns
+    -moz-columns 3
+    -webkit-columns 3
+    columns 3
+    -moz-column-gap 20px
+    -webkit-column-gap 20px
+    column-gap 20px
+  .four-columns
+    -moz-columns 4
+    -webkit-columns 4
+    columns 4
+    -moz-column-gap 20px
+    -webkit-column-gap 20px
+    column-gap 20px
+  .five-columns
+    -moz-columns 5
+    -webkit-columns 5
+    columns 5
+    -moz-column-gap 20px
+    -webkit-column-gap 20px
+    column-gap 20px
+  .page
+    position relative
+    height 100%
+    min-height 100%
+    width 100%
+    *zoom 1
+    &:after
+      clear both
+    .page-header
+      width 100%
+      position relative
+      display block
+      .page-header-content
+        height 100px
+        min-height 100px
+        width 100%
+        position relative
+        display block
+        h1
+          small
+            font-size 12pt
+            margin-left 5px
+          &.sub-menu
+            cursor pointer
+            &:after
+              position absolute
+              content "\3009"
+              display inline-block
+              font-size 10pt
+              bottom -5px
+              right -15px
+              -webkit-transform rotate(90deg)
+              -moz-transform rotate(90deg)
+              -ms-transform rotate(90deg)
+              -o-transform rotate(90deg)
+              transform rotate(90deg)
+        & > .page-back
+          position absolute
+          top 34px
+          left 30px
+        .user-login
+          float right
+          margin 55px 44px 0 0
+          cursor pointer
+          .avatar
+            float right
+            border 1px #ccc solid
+            width 40px
+            height 40px
+          .name
+            float left
+            margin -5px 10px 0
+            text-align right
+            .first-name
+              font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+              font-weight 200
+              font-size 20pt
+              letter-spacing 0.01em
+              line-height 22pt
+              font-smooth always
+              display block
+              margin 0
+            .last-name
+              font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+              font-weight 400
+              font-size 9pt
+              font-smooth always
+              line-height 11pt
+              display block
+              margin 0
+    .page-region
+      display block
+      .page-region-content
+        padding-top 10px
+        padding-left 0
+        padding-right 0
+        padding-bottom 20px
+        display block
+        height 100%
+        position relative
+    &.secondary
+      .page-region
+        .page-region-content
+          padding-left 120px
+    &.snapped
+      width 33.33%
+      height 100%
+      float left
+      border-right 1px #ccc solid
+      .page
+        .page-region
+          .page-region-content
+            padding-left 20px
+    &.fill
+      width 66.66%
+      height 100%
+      float right
+      border-left 1px #ccc solid
+    &.fixed-header
+      .page-header
+        position fixed
+        top 0
+        left 0
+        right 0
+      .page-region
+        padding-top 140px
+    &.with-sidebar
+      .page-region
+        margin-left 220px
+        width auto
+        *zoom 1
+        .page-region-content
+          padding-left 20px
+        &:after
+          clear both
+  .app-bar
+    position fixed
+    bottom 0
+    left 0
+    right 0
+    min-height 100px
+    background-color #1d1d1d !important
+  .charms
+    position fixed
+    right 0
+    top 0
+    bottom 0
+    height 100%
+    min-width 200px
+    width auto
+    &.place-left
+      left 0
+      right auto
+  .message-dialog
+    position fixed
+    left 0
+    right 0
+    height auto
+    min-height 100px
+    top 30%
+    padding 10px 10px 0
+  .error-bar
+    background-color #b91d47 !important
+  .warning-bar
+    background-color #ffc40d !important
+  .info-bar
+    background-color #2d89ef !important
+  .back-button
+    height 32px
+    width 32px
+    display block
+    background-image url(data:image/png
+    -webkit-background-size cover
+    -moz-background-size cover
+    -o-background-size cover
+    background-size cover
+    &.big
+      height 48px
+      width 48px
+      left 36px
+      top 40px
+    &.white
+      background-image url(data:image/png
+  a
+    &.button
+      &.big
+        padding 14px 10px
+    &.shortcut
+      padding 12px 0
+      .label
+        font-size 9pt
+  .tool-button
+    font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 400
+    font-size 9pt
+    font-smooth always
+    line-height 11pt
+    font-size 14px
+    display inline-block
+    padding 4px 12px
+    line-height 20px
+    vertical-align middle !important
+    min-width 90px
+    background-color #ccc
+    border 1px transparent solid
+    color #353535
+    margin-right 10px
+    margin-bottom 10px
+    border-raduis 0
+    cursor pointer
+    width auto
+    *zoom 1
+    min-width 32px
+    min-height 32px
+    width 32px
+    height 32px
+    text-align center
+    position relative
+    padding 0
+    &.mini
+      min-width 22px
+      width 22px
+      min-height 20px
+      min-width 20px
+      height 14px
+      font-size .75em !important
+      padding-top 0px !important
+    &.big
+      min-width 48px
+      width 48px
+      min-height 48px
+      height 48px
+      font-size 1.2em
+    &:after
+      clear both
+    &.standart
+      min-width 90px
+      min-height 32px
+    &.default
+      background-color #008287
+      color #fff
+    &:focus
+      outline 0
+      border 1px #353535 dotted
+    img
+      width 16px
+      height 16px
+      top 8px
+  .command-button
+    display inline-block
+    width 330px
+    text-align left
+    padding 10px 20px
+    height auto
+    color #000
+    background-color #ccc
+    font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 300
+    font-size 11pt
+    letter-spacing 0.02em
+    line-height 14pt
+    font-smooth always
+    & > small
+      display block
+      font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 300
+      font-size 11pt
+      letter-spacing 0.02em
+      line-height 14pt
+      font-smooth always
+      font-size 10pt
+      color #505050
+    &.default
+      & > small
+        color #ccc
+  .toolbar
+    *zoom 1
+    a
+      padding 5px 0
+    &:after
+      clear both
+    .toolbar-group
+      margin-right 20px
+      margin-bottom 10px
+      float left
+  .toolbar-vertical
+    width 33px
+    float left
+    margin-right 10px
+    *zoom 1
+    a
+      padding 5px 0
+    &:after
+      clear both
+    .toolbar-group
+      margin-bottom 20px
+  .image-button
+    position relative
+    border 0
+    padding-right 45px
+  .button-set
+    a
+      padding 5px 0
+    button
+      &.active
+        background-color #008287
+        color #fff
+  .shortcuts
+    margin-bottom 10px
+  .shortcut
+    width 92px
+    height 92px
+    display inline-block
+    margin 0 10px 10px 0
+    vertical-align top
+    text-decoration none
+    background #F3F3F3
+    text-align center
+    cursor pointer
+    border 0
+    border-bottom 2px transparent solid
+    position relative
+    &:hover
+      border-color red
+    &:active
+      background #F3F3F3
+      top 1px
+      left 1px
+    & > .icon
+      margin-top .25em
+      margin-bottom .25em
+      color #888
+      display block
+      float none
+    & > .label
+      display block
+      font-weight 400
+      color #666
+    & > .badge
+      position absolute
+      right 0
+      top 0
+      background-color #2d89ef
+      padding 5px
+      margin 0 !important
+      text-align center
+      display block
+      font-size 9pt
+      color #fff
+      line-height 11pt
+  .pagination
+    width auto
+    margin-bottom 10px
+    & > ul
+      margin-left 0
+      list-style none
+      margin 0
+      li
+        display inline-block
+        margin-right 1px
+        position relative
+        a
+          font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+          font-weight 400
+          font-size 9pt
+          font-smooth always
+          line-height 11pt
+          font-size 14px
+          display inline-block
+          padding 4px 12px
+          line-height 20px
+          vertical-align middle !important
+          min-width 90px
+          background-color #ccc
+          border 1px transparent solid
+          color #353535
+          margin-right 10px
+          margin-bottom 10px
+          border-raduis 0
+          width auto
+          *zoom 1
+          min-height 32px
+          width 32px
+          padding 0
+          position relative
+          display block
+          float left
+          font-size 10pt
+          padding 5px
+          min-width 32px
+          height 32px
+          text-align center
+          vertical-align middle
+          cursor pointer
+          margin-right 1px
+          &.mini
+            min-height 20px
+            min-width 20px
+            height 14px
+            font-size .75em !important
+            padding-top 0px !important
+            min-width 22px
+            width 22px
+            min-height 20px
+            min-width 20px
+            height 14px
+            font-size .75em !important
+            padding-top 0px !important
+          &.big
+            min-height 48px
+            height 48px
+            font-size 1.2em
+            min-width 48px
+            width 48px
+            min-height 48px
+            height 48px
+            font-size 1.2em
+          &:after
+            clear both
+          &.standart
+            min-width 90px
+            min-height 32px
+          &.default
+            background-color #008287
+            color #fff
+          &:focus
+            outline 0
+            border 1px #353535 dotted
+          img
+            width 16px
+            height 16px
+            top 8px
+          &:hover
+            background-color #1d1d1d
+            color #ffffff
+          &:active
+            top 1px
+            left 1px
+        &.first
+          a
+            &:before
+              content "\AB"
+              margin-left -10px
+        &.prev
+          a
+            &:before
+              content "\2039"
+        &.next
+          a
+            &:before
+              content "\203A"
+        &.last
+          a
+            &:before
+              content "\BB"
+              margin-left -10px
+        &.active
+          a
+            background-color #008287
+            color #ffffff
+        &.disabled
+          a
+            color #1e1e1e
+        &.spaces
+          a
+            background-color #ffffff
+            cursor default
+  table
+    width 100%
+    border-collapse separate
+    margin 0 0 20px
+    tbody
+      tr
+        border 1px #fff solid
+        td
+          font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+          font-weight 300
+          font-size 11pt
+          letter-spacing 0.02em
+          line-height 14pt
+          font-smooth always
+          padding 3px 10px
+          border-right 1px #ddd solid
+          border-bottom 1px #ddd solid
+          border-left 1px transparent solid
+          border-top 1px transparent solid
+          box-sizing border-box
+          &.right
+            text-align right
+          &.center
+            text-align center
+          &.last
+            border-right 1px transparent solid
+          &:last-child
+            border-right 1px transparent solid
+        &.success
+          background-color #00a300 !important
+        &.error
+          background-color #b91d47 !important
+        &.warning
+          background-color #e3a21a !important
+        &.info
+          background-color #2d89ef !important
+        &.selected-row
+          background-color rgba(28, 183, 236, 0.1) !important
+          td
+            border-top 1px #1c98cc solid
+            border-bottom 1px #1c98cc solid
+            &:first-child
+              border-left 1px #1c98cc solid
+            &:last-child
+              border-right 1px #1c98cc solid
+    &.striped
+      tbody
+        tr
+          &:nth-child(odd)
+            background-color #f9f9f9
+    &.hovered
+      border-collapse separate !important
+      tbody
+        tr
+          &:hover
+            background-color rgba(28, 183, 236, 0.1)
+            td
+              border-top 1px #1c98cc solid
+              border-bottom 1px #1c98cc solid
+              &:first-child
+                border-left 1px #1c98cc solid
+              &:last-child
+                border-right 1px #1c98cc solid
+    &.bordered
+      border-collapse separate !important
+      border 1px #ccc solid !important
+      tbody
+        tr
+          &:last-child
+            td
+              border-bottom 0
+  .ot
+    width 31%
+  .tt
+    width 65%
+  .cl
+    clear both
+  .item-padding
+    margin-right 20px
+    margin-bottom 5px
+  .column-padding
+    margin 0 10px
+  .group-padding
+    margin 0 40px
+  .span1
+    width 60px
+  .span2
+    width 140px
+  .span3
+    width 220px
+  .span4
+    width 300px
+  .span5
+    width 380px
+  .span6
+    width 460px
+  .span7
+    width 540px
+  .span8
+    width 620px
+  .span9
+    width 700px
+  .span10
+    width 780px
+  .span11
+    width 860px
+  .span12
+    width 940px
+  .offset1
+    margin-left 80px
+  .offset2
+    margin-left 160px
+  .offset3
+    margin-left 240px
+  .offset4
+    margin-left 320px
+  .offset5
+    margin-left 400px
+  .offset6
+    margin-left 480px
+  .offset7
+    margin-left 560px
+  .offset8
+    margin-left 640px
+  .offset9
+    margin-left 720px
+  .offset10
+    margin-left 800px
+  .offset11
+    margin-left 880px
+  .offset12
+    margin-left 960px
+  [class*="span"]
+    float none
+    min-height 1px
+    margin-right 20px
+    margin-bottom 5px
+    *zoom 1
+    & > img
+      max-width 100%
+      height auto
+  [class*="span"]:after
+    clear both
+  [class*="span"]:last-child
+    margin-right 0
+  .grid
+    margin 0 0 20px
+    display block
+    height auto
+    width 100%
+    *zoom 1
+    &.no-margin
+      margin 0
+    &.margin-row
+      margin-bottom 5px
+    .grid
+      margin-top 2.5px
+      margin-bottom 2.5px
+    .group
+      margin-right 80px
+      float left
+      width auto
+      height auto
+      min-height 1px
+    .row
+      width 100%
+      *zoom 1
+      &:after
+        clear both
+      [class*="span"]
+        float left
+    &.element-border
+      [class*="span"]
+        border 1px #ccc dotted
+    &:after
+      clear both
+  .hero-unit
+    position relative
+    margin 0 0 10px
+    padding 20px
+    background-color #f1f1f1
+    width 100%
+    *zoom 1
+    &:after
+      clear both
+  .dropdown-menu
+    position absolute
+    background-color #fff
+    margin-left 0
+    list-style none
+    top 100%
+    z-index 11010
+    float left
+    border 1px solid rgba(0, 0, 0, 0.2)
+    box-shadow 0 5px 10px rgba(0, 0, 0, 0.2)
+    min-width 160px
+    padding-bottom 5px
+    padding-top 5px
+    padding-left 0
+    display none
+    &.place-right
+      right 0
+      left auto
+    a
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 400
+      font-size 11pt
+      letter-spacing 0.01em
+      line-height 13pt
+      font-smooth always
+      color #000000
+      display block
+      width 100%
+      padding 3px 20px
+      white-space nowrap
+      font-size 14px
+      cursor pointer
+      &:hover
+        color rgba(0, 0, 0, 0.8)
+        background-color #2d89ef !important
+        color #ffffff !important
+      &:active
+        color rgba(0, 0, 0, 0.4)
+    li
+      display list-item
+      line-height 20px
+    .divider
+      height 1px
+      margin 9px 1px
+      overflow hidden
+      background-color #e5e5e5
+    &.open
+      display block !important
+  .nav-bar
+    background-color #2d89ef
+    position relative
+    top 0
+    width 100%
+    display block
+    margin 0
+    padding 0
+    z-index 1000
+    *zoom 1
+    .nav-bar-inner
+      *zoom 1
+      & > ul
+        &.menu
+          margin-left 0
+          list-style none
+          padding 0
+          margin 0
+          & > li
+            display block
+            float left
+            margin-right 5px
+            position relative
+            padding 5px 15px 5px 5px
+            a
+              display block
+              float left
+              color #ffffff
+              font-size 10pt
+            ul
+              &.dropdown-menu
+                z-index 1001
+                border 0
+                left 0px
+                li
+                  a
+                    display block
+                    float none
+                    color #1e1e1e
+                    padding 3px 20px
+          &.open
+            display block !important
+      [data-role=dropdown]
+        margin-right 20px !important
+        & > a
+          cursor pointer
+          &:before
+            position absolute
+            content "\203A"
+            display block
+            font-size 1.4em
+            left 100%
+            margin-left -10px
+            top 8px
+            -webkit-transform rotate(90deg)
+            -moz-transform rotate(90deg)
+            -ms-transform rotate(90deg)
+            -o-transform rotate(90deg)
+            transform rotate(90deg)
+      .pull-menu
+        display none
+        float right
+        color #fff
+        cursor pointer
+        font 1.8em sans-serif
+        margin-right 0px
+        position relative
+        height 20px
+        width 20px
+        line-height 20px
+        &:before
+          content "\2261"
+          position absolute
+          font-size 20pt
+          top 5px
+          left 0
+      &:after
+        clear both
+      &.container
+        width 940px
+        margin auto
+    &.bg-color-blue
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #2d89ef !important
+    &.bg-color-blueLight
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #eff4ff !important
+    &.bg-color-blueDark
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #2b5797 !important
+    &.bg-color-green
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #00a300 !important
+    &.bg-color-greenLight
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #99b433 !important
+    &.bg-color-greenDark
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #1e7145 !important
+    &.bg-color-red
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #b91d47 !important
+    &.bg-color-yellow
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #ffc40d !important
+    &.bg-color-orange
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #e3a21a !important
+    &.bg-color-orangeDark
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #da532c !important
+    &.bg-color-pink
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #9f00a7 !important
+    &.bg-color-pinkDark
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #7e3878 !important
+    &.bg-color-purple
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #603cba !important
+    &.bg-color-darken
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #1d1d1d !important
+    &.bg-color-lighten
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #d5e7ec !important
+    &.bg-color-white
+      .nav-bar-inner
+        .menu
+          li
+            &:hover
+              background-color #e6e6e6 !important
+            a
+              color #1d1d1d !important
+              &:hover
+                background-color #e6e6e6 !important
+        .element
+          color #1d1d1d !important
+        .pull-menu
+          color #1d1d1d !important
+    &.bg-color-grayDark
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #525252 !important
+    &.bg-color-magenta
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #ff0097 !important
+    &.bg-color-teal
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #00aba9 !important
+    &.bg-color-redLight
+      .nav-bar-inner
+        .menu
+          li
+            a
+              &:hover
+                background-color #ee1111 !important
+    &:after
+      clear both
+    &.fixed-top
+      top 0
+      bottom auto
+    &.fixed-bottom
+      bottom 0
+      top auto
+  .side-nav
+    ul
+      margin 0
+      padding 0
+      list-style none
+      margin-bottom 20px
+      .title
+        color #4f4f4f
+        font-family Segoe UI, Arial, Verdana, Tahoma, sans-serif
+        font-size 12pt
+        margin 0 0 5px 0
+        border-bottom 1px #ccc solid
+      & > li
+        & > a
+          display block
+          padding 3px 10px 3px 0
+          position relative
+          color #014E85
+          padding-left 3px
+          font-size 10pt
+      &.close
+        & > li
+          display none
+        & > li[class^=title]
+          display list-item
+  .page-sidebar
+    display block
+    width 213px
+    float left
+    min-height 100% !important
+    height auto
+    background-color #EBEBEB
+    padding-top 10px
+    padding-bottom 10px
+    margin-top 10px
+    margin-left 7px
+    a
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 400
+      font-size 11pt
+      letter-spacing 0.01em
+      line-height 13pt
+      font-smooth always
+      color #000000
+      display block
+      width 100%
+      padding 5px 20px 5px 10px
+      white-space nowrap
+      font-size 14px
+      cursor pointer
+      &:hover
+        color rgba(0, 0, 0, 0.8)
+        background-color #2d89ef !important
+        color #ffffff !important
+      &:active
+        color rgba(0, 0, 0, 0.4)
+    li
+      display list-item
+      line-height 20px
+      position relative
+    & > ul
+      & > li
+        & > a
+          font-size 1.1em
+        &.sticker
+          &:before
+            content "."
+            position absolute
+            width 7px
+            height 28px
+            left -7px
+            text-indent -9999px
+            border-top-left-radius 10px
+            border-bottom-left-radius 10px
+            background-color #ebebeb
+          &.sticker-color-blue
+            &:before
+              background-color #2d89ef
+          &.sticker-color-blueLight
+            &:before
+              background-color #eff4ff
+          &.sticker-color-blueDark
+            &:before
+              background-color #2b5797
+          &.sticker-color-green
+            &:before
+              background-color #00a300 !important
+          &.sticker-color-greenLight
+            &:before
+              background-color #99b433 !important
+          &.sticker-color-greenDark
+            &:before
+              background-color #1e7145 !important
+          &.sticker-color-red
+            &:before
+              background-color #b91d47 !important
+          &.sticker-color-yellow
+            &:before
+              background-color #ffc40d !important
+          &.sticker-color-orange
+            &:before
+              background-color #e3a21a !important
+          &.sticker-color-orangeDark
+            &:before
+              background-color #da532c !important
+          &.sticker-color-pink
+            &:before
+              background-color #9f00a7 !important
+          &.sticker-color-pinkDark
+            &:before
+              background-color #7e3878 !important
+          &.sticker-color-purple
+            &:before
+              background-color #603cba !important
+          &.sticker-color-darken
+            &:before
+              background-color #1d1d1d !important
+          &.sticker-color-white
+            &:before
+              background-color #ffffff !important
+          &.sticker-color-grayDark
+            &:before
+              background-color #525252 !important
+        &.dropdown
+          position relative
+          &:after
+            content ""
+            display block
+            position absolute
+            top 6px
+            left 100%
+            margin-left -20px
+            width 16px
+            height 16px
+            background no-repeat
+            background-position 0 -1586px
+            z-index 200
+          &.active
+            &:after
+              background-position 0 -676px
+    .divider
+      height 1px
+      margin 9px 1px
+      overflow hidden
+      background-color #e5e5e5
+    ul
+      margin-left 0
+      list-style none
+      background-color #EBEBEB
+      &.sub-menu
+        padding-top 5px
+        padding-bottom 5px
+        a
+          padding 5px 20px 5px 25px
+        &.light
+          background-color #f9f9f9 !important
+    .sidebar-dropdown-menu
+      display none
+      &.open
+        display block
+  .replies
+    margin-left 0
+    list-style none
+  .notices
+    list-style none
+    margin 0
+    padding 0
+  .tile-group
+    margin 0
+    margin-right 80px
+    float left
+    width auto
+    height auto
+    min-height 1px
+    width 802px
+  .tile
+    display block
+    float left
+    background-color #525252
+    width 150px
+    height 150px
+    cursor pointer
+    box-shadow inset 0px 0px 1px #FFFFCC
+    text-decoration none
+    color #ffffff
+    position relative
+    font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 300
+    font-size 11pt
+    letter-spacing 0.02em
+    line-height 14pt
+    font-smooth always
+    margin 0 10px 10px 0
+    overflow hidden
+    *
+      color #ffffff
+    .tile-content
+      width 100%
+      height 100%
+      padding 0
+      padding-bottom 30px
+      vertical-align top
+      padding 10px 15px
+      overflow hidden
+      text-overflow ellipsis
+      position relative
+      font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 400
+      font-size 9pt
+      font-smooth always
+      line-height 11pt
+      color #000000
+      color #ffffff
+      line-height 16px
+      &:hover
+        color rgba(0, 0, 0, 0.8)
+        color #ffffff
+      &:active
+        color rgba(0, 0, 0, 0.4)
+      p
+        font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+        font-weight 400
+        font-size 9pt
+        font-smooth always
+        line-height 11pt
+        color #000000
+        color #ffffff
+        line-height 16px
+        overflow hidden
+        text-overflow ellipsis
+        &:hover
+          color rgba(0, 0, 0, 0.8)
+          color #ffffff
+        &:active
+          color rgba(0, 0, 0, 0.4)
+    &.icon
+      & > .tile-content
+        padding 0
+        & > img
+          position absolute
+          width 64px
+          height 64px
+          top 50%
+          left 50%
+          margin-left -32px
+          margin-top -32px
+        & > i
+          position absolute
+          width 64px
+          height 64px
+          top 50%
+          left 50%
+          margin-left -32px
+          margin-top -32px
+          font-size 64px
+    &.image-set
+      & > .tile-content
+        margin 0
+        padding 0
+        width 25% !important
+        height 50%
+        float left
+        border 1px #1e1e1e solid
+        & > img
+          min-width 100%
+          width 100%
+          height auto
+          min-height 100%
+      .tile-content
+        &:first-child
+          width 50% !important
+          float left
+          height 100%
+    &.double
+      width 310px
+    &.triple
+      width 470px
+    &.quadro
+      width 630px
+    &.double-vertical
+      height 310px
+    &.triple-vertical
+      height 470px
+    &.quadro-vertical
+      height 630px
+    &:hover
+      outline 3px #3a3a3a solid
+  .input-control
+    margin-right 0px
+    margin-bottom 10px
+    position relative
+    &.checkbox
+      display inline-block
+      margin-right 10px
+      margin-bottom 10px
+      cursor pointer
+      & > input[type=checkbox]
+        position absolute
+        opacity 0
+      .helper
+        padding-left 23px
+        position relative
+        &:before
+          position absolute
+          display block
+          height 20px
+          width 20px
+          content ""
+          text-indent -9999px
+          border 2px #d9d9d9 solid
+          z-index 1
+          opacity 1
+          top 0
+          left 0
+      input[type="checkbox"]:checked
+        & ~ .helper
+          &:after
+            position absolute
+            display block
+            content "\e08a"
+            font-size 10pt
+            heigth 14px
+            width 14px
+            line-height 14px
+            z-index 2
+            top 50%
+            margin-top -6px
+            left 0
+            margin-left 4px
+            font-family iconFont
+      input[type="checkbox"]:not(:checked)
+        & ~ .helper
+          &:after
+            display none
+      input[type="checkbox"]:disabled
+        & ~ .helper
+          &:before
+            cursor default
+            background #e6e6e6
+      input[type=checkbox]:disabled
+        & ~ .helper
+          &:after
+            color #8a8a8a
+      input[type=checkbox]:focus
+        & ~ .helper
+          &:before
+            border-color #919191
+      &:hover
+        input[type=checkbox]:not(:disabled)
+          & ~ .helper
+            &:before
+              border-color #919191
+      &:active
+        input[type=checkbox]:not(:disabled)
+          & ~ .helper
+            &:before
+              border-color #1e1e1e
+    &.intermediate
+      input[type="checkbox"]
+        & ~ .helper
+          &:after
+            position absolute !important
+            display block !important
+            content "" !important
+            color #1a1a1a !important
+            z-index 2 !important
+            font-size 16px !important
+            font-weight bold !important
+            left 5px !important
+            margin-left 0 !important
+            top 50% !important
+            margin-top -5px !important
+            background-color #1a1a1a !important
+            width 10px !important
+            height 10px !important
+      input[type="checkbox"]:disabled
+        & ~ .helper
+          &:after
+            background-color #9a9a9a !important
+    &.radio
+      display inline-block
+      margin-right 10px
+      margin-bottom 10px
+      cursor pointer
+      & > input[type=radio]
+        position absolute
+        opacity 0
+      .helper
+        padding-left 23px
+        position relative
+        &:before
+          position absolute
+          display block
+          height 20px
+          width 20px
+          content ""
+          text-indent -9999px
+          border 2px #d9d9d9 solid
+          z-index 1
+          opacity 1
+          top 0
+          left 0
+          border-radius 100%
+      input[type="radio"]:checked
+        & ~ .helper
+          &:after
+            position absolute
+            display block
+            content ""
+            color #1a1a1a
+            z-index 2
+            font-size 16px
+            font-weight bold
+            left 5px
+            margin-left 0
+            top 50%
+            margin-top -5px
+            background-color #1a1a1a
+            width 10px
+            height 10px
+            border-radius 100%
+      input[type="radio"]:disabled
+        & ~ .helper
+          &:before
+            cursor default
+            background #e6e6e6
+          &:after
+            background-color #8a8a8a
+      input[type="radio"]:focus
+        & ~ .helper
+          &:before
+            border-color #919191
+      &:hover
+        input
+          &:not(:disabled)
+            & ~ .helper
+              &:before
+                border-color #919191
+      &:active
+        input
+          &:not(:disabled)
+            & ~ .helper
+              &:before
+                border-color #1e1e1e
+    &.switch
+      display inline-block
+      margin-right 10px
+      margin-bottom 10px
+      cursor pointer
+      position relative
+      & > input[type=checkbox]
+        position absolute
+        opacity 0
+      .helper
+        padding-left 52px
+        position relative
+        &:before
+          position absolute
+          left 0
+          top 2px
+          display block
+          content ""
+          width 43px
+          height 16px
+          outline 2px #a6a6a6 solid
+          border 1px #fff solid
+          cursor pointer
+          background #008287
+          margin-left 2px
+          z-index 1
+      input[type="checkbox"]
+        & ~ .helper
+          &:after
+            position absolute
+            left 36px
+            top 2px
+            display block
+            content ""
+            width 9px
+            height 16px
+            outline 2px #333 solid
+            border 1px #333 solid
+            cursor pointer
+            background #333
+            z-index 2
+      input[type="checkbox"]:not(:checked)
+        & ~ .helper
+          &:after
+            left 2px !important
+          &:before
+            background #a6a6a6 !important
+      input[type="checkbox"]:disabled
+        & ~ .helper
+          &:after
+            background #a6a6a6 !important
+            outline 2px #a6a6a6 solid !important
+            border 1px #a6a6a6 solid !important
+          &:before
+            cursor default !important
+            background #e0e0e0 !important
+            outline 2px #ccc solid !important
+      input[type="checkbox"]:focus
+        & ~ .helper
+          &:before
+            outline 2px #747474 solid !important
+    & > input[type=password]::-ms-reveal
+      display none
+    & > select
+      padding-right 5px
+    & > textarea
+      padding-right 5px
+      min-height 100px
+    &.text
+      .btn-search
+        &:before
+          content "\e041"
+      .btn-date
+        &:before
+          content "\e020"
+  label
+    font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 300
+    font-size 11pt
+    letter-spacing 0.02em
+    line-height 14pt
+    font-smooth always
+    margin-right 10px
+    margin-bottom 10px
+  fieldset
+    position relative
+    margin-top 30px
+    border 2px #eaeaea solid
+    padding 10px
+    legend
+      padding-left 10px
+      padding-right 10px
+      font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 300
+      font-size 11pt
+      letter-spacing 0.02em
+      line-height 14pt
+      font-smooth always
+      color #cfcfcf
+      position absolute
+      top -25px
+      left -10px
+  input[type=submit]
+    background-color #008287
+    color #fff
+  .image-collection
+    position relative
+    margin-left 0
+    list-style none
+    *zoom 1
+    &:after
+      clear both
+    &.p16x9
+      & > div
+        width 220px
+        height 121px
+    &.p4x3
+      & > div
+        width 220px
+        height 165px
+  .image-container
+    position relative
+    padding 5px 5px 50px
+    background-color #1e1e1e
+    width 220px
+    margin-right 20px
+    margin-bottom 20px
+    img
+      width 100%
+      height auto
+    & > .overlay
+      position absolute
+      bottom 0
+      left 0
+      right 0
+      height 50px
+      font-size 8pt
+      color #fff
+      line-height 14px
+      padding 0 5px
+      overflow hidden
+      text-overflow ellipsis
+    &.light
+      background-color #ccc
+      & > .overlay
+        color #1e1e1e
+  .card
+    width 75px
+    height 105px
+    border 1px #eaeaea solid
+    border-radius 0px
+    position relative
+    float left
+    display block
+    margin-right 10px
+    margin-bottom 10px
+    cursor pointer
+    background #fff
+    font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 200
+    font-size 20pt
+    letter-spacing 0.01em
+    line-height 22pt
+    font-smooth always
+    font-family Tahoma, Arial, sans-serif
+    line-height 18pt
+    &:hover
+      box-shadow 1px 1px 1px #ccc
+    .suit
+      padding 0
+      font-size 80px
+      position absolute
+      right 5px
+      bottom 30px
+      &:after
+        position relative
+        bottom 10px
+    .small-suit
+      &:after
+        top 5px
+        left 13px
+        position absolute
+      &:before
+        top 22px
+        left 10px
+        position absolute
+    &.two
+      .small-suit
+        &:after
+          content "2"
+    &.three
+      .small-suit
+        &:after
+          content "3"
+    &.four
+      .small-suit
+        &:after
+          content "4"
+    &.five
+      .small-suit
+        &:after
+          content "5"
+    &.six
+      .small-suit
+        &:after
+          content "6"
+    &.seven
+      .small-suit
+        &:after
+          content "7"
+    &.eight
+      .small-suit
+        &:after
+          content "8"
+    &.nine
+      .small-suit
+        &:after
+          content "9"
+    &.ten
+      .small-suit
+        &:after
+          content "10"
+          margin-left -7px
+    &.jack
+      .small-suit
+        &:after
+          content "J"
+    &.dame
+      .small-suit
+        &:after
+          content "Q"
+    &.king
+      .small-suit
+        &:after
+          content "K"
+    &.ace
+      .small-suit
+        &:after
+          content "A"
+    &.joker
+      background #ffffff url(data:image/jpeg
+    &.back
+      background-color #b91d47
+      background-image -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent))
+      background-image -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
+      background-image -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
+      background-image -ms-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
+      background-image -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
+      background-image linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
+    &.spades
+      .small-suit
+        &:after
+          color black
+        &:before
+          font-family iconFont
+          content "\e009"
+          color black
+      .suit
+        &:after
+          font-size 40pt
+          font-family iconFont
+          content "\e009"
+          color black
+    &.clubs
+      .small-suit
+        &:after
+          color black
+        &:before
+          font-family iconFont
+          content "\e00a"
+          color black
+      .suit
+        &:after
+          font-size 40pt
+          font-family iconFont
+          content "\e00a"
+          color black
+    &.diamonds
+      .small-suit
+        &:after
+          color red
+        &:before
+          font-family iconFont
+          content "\e00b"
+          color red
+      .suit
+        &:after
+          font-size 40pt
+          font-family iconFont
+          content "\e00b"
+          color red
+    &.hearts
+      .small-suit
+        &:after
+          color red
+        &:before
+          font-family iconFont
+          content "\e07f"
+          color red
+      .suit
+        &:after
+          font-size 40pt
+          font-family iconFont
+          content "\e07f"
+          color red
+  .red
+    color red
+  .black
+    color black
+  code
+    padding 2px 4px
+    font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+    font-weight 400
+    font-size 9pt
+    font-smooth always
+    line-height 11pt
+    color #d14
+    background-color #f7f7f9
+    border 1px #e1e1e8 solid
+  pre
+    display block
+    padding 10px
+    margin 0
+    line-height 14pt
+    word-break break-all
+    word-wrap break-word
+    white-space pre
+    white-space pre-wrap
+    background-color #f5f5f5
+    border 1px solid rgba(0, 0, 0, 0.15)
+    &.prettyprint
+      margin-bottom 10px
+    code
+      padding 0
+      color inherit
+      background-color transparent
+      border 0
+  .page-control
+    position relative
+    *zoom 1
+    &:after
+      clear both
+    & > ul
+      margin-left 0
+      list-style none
+      *zoom 1
+      position absolute
+      z-index 5
+      width 100%
+      background-color rgba(217, 217, 217, 0.16)
+      height 31px
+      &:after
+        clear both
+      li
+        float left
+        display block
+        text-align center
+        height 100%
+        &:first-child
+          margin-left 20px
+        img
+          float left
+          width 16px
+          height 16px
+          margin-right 5px
+          margin-top 3px
+        &.active
+          border 1px #ccc solid
+          border-bottom 0
+          background-color #fff
+    &.tabs-right
+      & > ul
+        li
+          float right !important
+          margin-left 10px
+    .frames
+      margin-top 30px
+      width 100%
+      min-height 50px
+      border 1px #ccc solid
+      .frame
+        width 100%
+        min-height 100%
+        height auto
+        display none
+        padding 20px
+        &.active
+          display block
+    ul
+      display block
+      overflow visible
+  .accordion
+    margin-left 0
+    list-style none
+    *zoom 1
+    margin-bottom 10px
+    &:after
+      clear both
+    & > li
+      margin-bottom 5px
+      display block
+      & > a
+        display block
+        height 32px
+        background url(data:image/png
+        background-color rgba(217, 217, 217, 0.16)
+        padding-left 36px
+        padding-top 5px
+        font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+        font-weight 400
+        font-size 11pt
+        letter-spacing 0.01em
+        line-height 13pt
+        font-smooth always
+      & > div
+        border 1px #ccc dotted
+        padding 10px
+        margin-top 5px
+        display none
+      &.active
+        & > a
+          background-image url(data:image/png
+          background-color #d9d9d9
+        & > div
+          display block
+    &.dark
+      & > li
+        & > a
+          background-color #464646
+          background-image url(data:image/png
+          color #fff
+        &.active
+          & > a
+            background-color #1e1e1e
+            background-image url(data:image/png
+  .static-rating
+    background url(data:image/png
+    height 26px
+    width 134px
+    margin-bottom 10px
+    *zoom 1
+    .rating-value
+      background url(data:image/png
+      background-position left -26px
+      height 26px
+      width 0
+    &.small
+      background url(data:image/png
+      height 12px
+      width 70px
+      margin-bottom 5px
+      .rating-value
+        background url(data:image/png
+        background-position left -13px
+        height 12px
+        width 0
+    &:after
+      clear both
+  .rating
+    *zoom 1
+    a
+      float left
+      display block
+      width 26px
+      height 26px
+      position relative
+      background url(data:image/png
+      &.rated
+        background-position 0 -26px
+      &.hover
+        background-position 0 -52px
+    &.small
+      a
+        float left
+        display block
+        width 12px
+        height 12px
+        position relative
+        background url(data:image/png
+        &.rated
+          background-position 0 -13px
+        &.hover
+          background-position 0 -26px
+    &:after
+      clear both
+  .progress-bar
+    height 5px
+    width 100%
+    margin-bottom 10px
+    *zoom 1
+    .bar
+      float left
+      width 0
+      background-color #008287
+      height 100%
+    &:after
+      clear both
+  .carousel
+    display block
+    position relative
+    margin-bottom 20px
+    .slides
+      width 100%
+      height 100%
+      overflow hidden
+      position relative
+      .slide
+        position absolute
+        left 0
+        top 0
+        width 100%
+        height 100%
+        &.image
+          img
+            width 100%
+            height 100%
+        .description
+          position absolute
+          left 0
+          right 0
+          bottom 0
+          padding 10px
+          background rgba(0, 0, 0, 0.7)
+          color #fff
+    .control
+      position absolute
+      top 50%
+      left 15px
+      width 40px
+      height 45px
+      margin-top -20px
+      font-size 48pt
+      font-weight 100
+      line-height 30px
+      color #fff
+      text-align center
+      cursor pointer
+      opacity .75
+      &.right
+        left auto
+        right 15px
+      &:hover
+        opacity 1
+    .markers
+      & > ul
+        margin-left 0
+        list-style none
+        position absolute
+        top 100%
+        left 0
+        padding-top 10px
+      li
+        display block
+        float left
+        margin-right 5px
+        a
+          width 32px
+          height 6px
+          background-color red
+          display block
+          float left
+        &.active
+          a
+            background-color #1e1e1e
+  .listview
+    margin-left 0
+    list-style none
+    *zoom 1
+    li
+      margin-bottom 10px
+      border 4px transparent solid
+      padding 10px
+      width 300px
+      position relative
+      display block
+      cursor pointer
+      *zoom 1
+      .icon
+        width 48px
+        height 48px
+        font-size 40px
+        float left
+        img
+          width 100%
+          height 100%
+        i
+          margin-top 10px
+      .data
+        margin-left 55px
+        h4
+          margin 0
+          padding 0 0 2px 0
+        p
+          margin 0
+          font-size 9pt
+      &:hover
+        outline 3px #ccc solid
+      &:active
+        outline 3px #3e3e3e solid
+      &:after
+        clear both
+      div
+        &.badge
+          position absolute
+          left -4px
+          top -4px
+          background-color #2d89ef
+          padding 5px
+          margin 0 !important
+          text-align center
+          display block
+          font-size 9pt
+          color #ffffff
+          &.strech
+            padding 0 5px
+          &.right
+            right -4px
+            left auto
+          &.bottom
+            top auto
+            bottom -4px
+    &.image
+      li
+        width 380px
+        .icon
+          width 100px
+          height 100px
+          border 1px #ccc solid
+        .data
+          margin-left 110px
+          h4
+            margin-bottom 4px
+          p
+            line-height 16px
+            font-size 10pt
+            margin-bottom 5px
+    &.iconic
+      li
+        .icon
+          width 32px
+          height 32px
+          border 1px #ccc solid
+        .data
+          margin-left 40px
+    &.fluid
+      li
+        float left
+        margin-right 10px
+    & > li
+      &.selected
+        border 4px #2d89ef solid
+        &:after
+          width 0
+          height 0
+          border-top 40px solid #2d89ef
+          border-left 40px solid transparent
+          position absolute
+          display block
+          right 0
+          content ""
+          top 0
+          z-index 1001
+        &:before
+          position absolute
+          content "\e08a"
+          color #fff
+          right 4px
+          top 0
+          font-family iconFont
+          z-index 1002
+          display block
+    &:after
+      clear both
+  .slider
+    height 12px
+    width auto
+    position relative
+    background-color #c6c6c6
+    margin-bottom 10px
+    .marker
+      height 12px
+      width 12px
+      cursor pointer
+      position absolute
+      top 0
+      left 0
+      background-color #000000
+      z-index 3
+    .complete
+      height 100%
+      width auto
+      background-color #00828b
+      z-index 2
+    &.vertical
+      height auto
+      width 12px
+      .complete
+        position absolute
+        height auto
+        width 12px
+        bottom 0
+    &:hover
+      .complete
+        background-color #219297
+  .dialog
+    position absolute
+    top 40%
+    left 40%
+    min-width 150px
+    min-height 155px
+    z-index 1000
+    box-shadow 0 5px 10px rgba(0, 0, 0, 0.2)
+    .header
+      font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 200
+      font-size 20pt
+      letter-spacing 0.01em
+      line-height 22pt
+      font-smooth always
+      width auto
+      height 35px
+      padding 0px 35px 5px 5px
+      font-size 18px
+      white-space nowrap
+      overflow hidden
+      background-color #2D89EF
+      color #fff
+      border 1px solid #2D89EF
+      border-bottom 0 none
+      div
+        position absolute
+        right -5px
+        top 5px
+      button
+        font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+        font-weight 400
+        font-size 9pt
+        font-smooth always
+        line-height 11pt
+        font-size 14px
+        display inline-block
+        padding 4px 12px
+        line-height 20px
+        vertical-align middle !important
+        min-width 90px
+        background-color #ccc
+        border 1px transparent solid
+        color #353535
+        margin-right 10px
+        margin-bottom 10px
+        border-raduis 0
+        cursor pointer
+        width auto
+        *zoom 1
+        min-width 32px
+        min-height 32px
+        width 32px
+        height 32px
+        text-align center
+        position relative
+        padding 0
+        width 24px !important
+        height 24px !important
+        min-height 24px
+        min-width 24px
+        &.mini
+          min-height 20px
+          min-width 20px
+          height 14px
+          font-size .75em !important
+          padding-top 0px !important
+          min-width 22px
+          width 22px
+          min-height 20px
+          min-width 20px
+          height 14px
+          font-size .75em !important
+          padding-top 0px !important
+        &.big
+          min-height 48px
+          height 48px
+          font-size 1.2em
+          min-width 48px
+          width 48px
+          min-height 48px
+          height 48px
+          font-size 1.2em
+        &:after
+          clear both
+        &.standart
+          min-width 90px
+          min-height 32px
+        &.default
+          background-color #008287
+          color #fff
+        &:focus
+          outline 0
+          border 1px #353535 dotted
+        img
+          width 16px
+          height 16px
+          top 8px
+    .content
+      min-height 85px
+      padding 20px
+      background-color #FFFFFF
+      border-left 1px solid rgba(0, 0, 0, 0.2)
+      border-right 1px solid rgba(0, 0, 0, 0.2)
+      font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+      font-weight 300
+      font-size 11pt
+      letter-spacing 0.02em
+      line-height 14pt
+      font-smooth always
+    .action
+      position relative
+      bottom 0
+      width auto
+      height 40px
+      font-size 18px
+      text-align center
+      white-space nowrap
+      overflow hidden
+      background-color #FFFFFF
+      border-left 1px solid rgba(0, 0, 0, 0.2)
+      border-right 1px solid rgba(0, 0, 0, 0.2)
+      border-bottom 1px solid rgba(0, 0, 0, 0.2)
+  #dialogOverlay
+    width 100%
+    height 100%
+    position fixed
+    top 0
+    left 0
+    background-color rgba(235, 235, 235, 0.5)
+    z-index 1
+  .calendar
+    background-color #ffffff !important
+    table
+      border 1px #ccc solid
+      width 100%
+      border-collapse collapse
+      margin 0
+      tr
+        height 1px
+    tr
+      &:empty
+        display none
+    td
+      cursor pointer
+      position relative
+      height 100%
+      span
+        font-size 8px !important
+        line-height 10px
+        position absolute
+        top 0
+        right 0
+        padding 1px 3px
+        background-color #b91d47 !important
+        color #ffffff !important
+    .out
+      background #ececf0
+      cursor default
+    .empty-day
+      border 0 !important
+      display none
+    .weekdays
+      td
+        background-color #eff4ff !important
+        font-weight bold !important
+    .current-day
+      background-color #00a300 !important
+      color #ffffff !important
+    .event
+      background-color #2d89ef !important
+      color #ffffff !important
+  .datepicker
+    position relative
+
+@font-face
+  font-family "PT Serif Caption"
+  font-style normal
+  font-weight 400
+  src local("PT Serif Caption"), local("PTSerif-Caption"), url(https://themes.googleusercontent.com/static/fonts/ptserifcaption/v4/7xkFOeTxxO1GMC1suOUYWWhBabBbEjGd1iRmpyoZukE.woff) format('woff')
+  font-family "Open Sans"
+  font-style normal
+  font-weight 700
+  src local("Open Sans Bold"), local("OpenSans-Bold"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzJ1r3JsPcQLi8jytr04NNhU.woff) format('woff')
+  font-family "Open Sans"
+  font-style normal
+  font-weight 300
+  src local("Open Sans Light"), local("OpenSans-Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff')
+  font-family "Open Sans"
+  font-style normal
+  font-weight 800
+  src local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hp1r3JsPcQLi8jytr04NNhU.woff) format('woff')
+  font-family "Open Sans"
+  font-style normal
+  font-weight 400
+  src local("Open Sans"), local("OpenSans"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff')
+  font-family "iconFont"
+  src url('../fonts/iconFont.eot')
+  src url('../fonts/iconFont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconFont.svg#iconFont') format('svg'), url('../fonts/iconFont.woff') format('woff'), url('../fonts/iconFont.ttf') format('truetype')
+  font-weight normal
+  font-style normal
+
+.metrouicss #font .subheader,
+.metrouicss #font .subheader-secondary
+  font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 200
+  font-size 20pt
+  letter-spacing 0.01em
+  line-height 22pt
+  font-smooth always
+
+.metrouicss #font .subheader-smaller,
+.metrouicss #font .subheader-secondary-smaller
+  font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 200
+  letter-spacing 0.01em
+  line-height 18pt
+  font-size 16pt
+  font-smooth always
+
+.metrouicss #font .small-subheader,
+.metrouicss #font .small-subheader-secondary
+  font-family 'Segoe UI Semibold', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 600
+  font-size 11pt
+  letter-spacing 0.01em
+  line-height 13pt
+  font-smooth always
+
+.metrouicss #font .body,
+.metrouicss #font .body-secondary,
+.metrouicss #font .normal
+  font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 300
+  font-size 11pt
+  letter-spacing 0.02em
+  line-height 14pt
+  font-smooth always
+
+.metrouicss #font .tertiary,
+.metrouicss #font .tertiary-secondary
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+
+.metrouicss #state .header,
+.metrouicss #state .subheader,
+.metrouicss #state .small-subheader,
+.metrouicss #state .navigation,
+.metrouicss #state .body,
+.metrouicss #state .tertiary
+  color #000000
+
+.metrouicss #state .header:hover,
+.metrouicss #state .subheader:hover,
+.metrouicss #state .small-subheader:hover,
+.metrouicss #state .navigation:hover,
+.metrouicss #state .body:hover,
+.metrouicss #state .tertiary:hover
+  color rgba(0, 0, 0, 0.8)
+
+.metrouicss #state .header:active,
+.metrouicss #state .subheader:active,
+.metrouicss #state .small-subheader:active,
+.metrouicss #state .navigation:active,
+.metrouicss #state .body:active,
+.metrouicss #state .tertiary:active
+  color rgba(0, 0, 0, 0.4)
+
+.metrouicss #state .subheader-secondary,
+.metrouicss #state .subheader-secondary-smaller,
+.metrouicss #state .small-subheader,
+.metrouicss #state .small-subheader-secondary,
+.metrouicss #state .body-secondary,
+.metrouicss #state .tertiary-secondary
+  color rgba(0, 0, 0, 0.6)
+
+.metrouicss #state .subheader-secondary:hover,
+.metrouicss #state .subheader-secondary-smaller:hover,
+.metrouicss #state .small-subheader:hover,
+.metrouicss #state .small-subheader-secondary:hover,
+.metrouicss #state .body-secondary:hover,
+.metrouicss #state .tertiary-secondary:hover
+  color rgba(0, 0, 0, 0.8)
+
+.metrouicss #state .subheader-secondary:active,
+.metrouicss #state .subheader-secondary-smaller:active,
+.metrouicss #state .small-subheader:active,
+.metrouicss #state .small-subheader-secondary:active,
+.metrouicss #state .body-secondary:active,
+.metrouicss #state .tertiary-secondary:active
+  color rgba(0, 0, 0, 0.4)
+
+.metrouicss a,
+.metrouicss .link
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 11pt
+  font-smooth always
+  line-height 13pt
+  color #2e92cf
+  text-decoration none
+
+.metrouicss a:hover,
+.metrouicss .link:hover
+  color rgba(45, 173, 237, 0.8)
+
+.metrouicss a:active,
+.metrouicss .link:active
+  color rgba(45, 173, 237, 0.6)
+
+.metrouicss h1,
+.metrouicss h2,
+.metrouicss h3,
+.metrouicss h4,
+.metrouicss h5,
+.metrouicss h6
+  margin 0 0 10px 0
+  padding 0
+
+.metrouicss body,
+.metrouicss p,
+.metrouicss div
+  font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 300
+  font-size 11pt
+  letter-spacing 0.02em
+  line-height 14pt
+  font-smooth always
+
+.metrouicss .tertiary-info-text,
+.metrouicss .tertiary-text
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  color #000000
+
+.metrouicss .tertiary-info-text:hover,
+.metrouicss .tertiary-text:hover
+  color rgba(0, 0, 0, 0.8)
+
+.metrouicss .tertiary-info-text:active,
+.metrouicss .tertiary-text:active
+  color rgba(0, 0, 0, 0.4)
+
+.metrouicss .tertiary-info-secondary-text,
+.metrouicss .tertiary-secondary-text
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  color rgba(0, 0, 0, 0.6)
+
+.metrouicss .tertiary-info-secondary-text:hover,
+.metrouicss .tertiary-secondary-text:hover
+  color rgba(0, 0, 0, 0.8)
+
+.metrouicss .tertiary-info-secondary-text:active,
+.metrouicss .tertiary-secondary-text:active
+  color rgba(0, 0, 0, 0.4)
+
+.metrouicss ul,
+.metrouicss ol
+  padding 0
+  margin 0 0 10px 0px
+  display block
+  list-style-position inside
+
+.metrouicss ul ul,
+.metrouicss ul ol,
+.metrouicss ol ol,
+.metrouicss ol ul
+  margin-bottom 0 !important
+
+.metrouicss ul li,
+.metrouicss ol li
+  display list-item
+  font-size 14px
+  line-height 20px
+
+.metrouicss ul.unstyled,
+.metrouicss ol.unstyled,
+.metrouicss .unstyled
+  margin-left 0
+  list-style none
+
+.metrouicss .inline-tag,
+.metrouicss .label
+  display inline-block
+  line-height inherit
+  font-size .75em
+  font-weight bold
+  padding 2px 4px
+  background-color #d5e7ec !important
+  color #4d4d4d
+  vertical-align 3%
+
+.metrouicss .inline-tag.success,
+.metrouicss .label.success
+  background-color #00a300 !important
+  color #ffffff !important
+
+.metrouicss .inline-tag.warning,
+.metrouicss .label.warning
+  background-color #e3a21a !important
+  color #ffffff !important
+
+.metrouicss .inline-tag.important,
+.metrouicss .label.important,
+.metrouicss .inline-tag.error,
+.metrouicss .label.error
+  background-color #b91d47 !important
+  color #ffffff !important
+
+.metrouicss .inline-tag.info,
+.metrouicss .label.info
+  background-color #2d89ef !important
+  color #ffffff !important
+
+.metrouicss .inline-tag.inverse,
+.metrouicss .label.inverse
+  background-color #1d1d1d !important
+  color #ffffff !important
+
+.metrouicss .scroll-y,
+.metrouicss .scroll-vertical
+  overflow-y scroll
+
+.metrouicss .scroll-x,
+.metrouicss .scroll-horizontal
+  overflow-x scroll
+
+.metrouicss .clearfix:before,
+.metrouicss .clearfix:after
+  display table
+  content ""
+
+.metrouicss [class^="icon-"],
+.metrouicss [class*=" icon-"]
+  font-family "iconFont"
+  font-weight normal
+  font-style normal
+  text-decoration inherit
+  -webkit-font-smoothing antialiased
+  display inline-block
+  width auto
+  height auto
+  line-height normal
+  vertical-align baseline
+  background-image none
+  background-position 0% 0%
+  background-repeat repeat
+  margin-top 0
+  position relative
+
+.metrouicss [class^="icon-"]:before,
+.metrouicss [class*=" icon-"]:before
+  text-decoration inherit
+  display inline-block
+  speak none
+
+.metrouicss a [class^="icon-"],
+.metrouicss a [class*=" icon-"]
+  display inline-block
+
+.metrouicss a [class^="icon-"],
+.metrouicss button [class^="icon-"],
+.metrouicss .button [class^="icon-"],
+.metrouicss .page-control > ul > li [class^="icon-"],
+.metrouicss a [class*=" icon-"],
+.metrouicss button [class*=" icon-"],
+.metrouicss .button [class*=" icon-"],
+.metrouicss .page-control > ul > li [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+
+.metrouicss a [class^="icon-"].icon-large,
+.metrouicss button [class^="icon-"].icon-large,
+.metrouicss .button [class^="icon-"].icon-large,
+.metrouicss .page-control > ul > li [class^="icon-"].icon-large,
+.metrouicss a [class*=" icon-"].icon-large,
+.metrouicss button [class*=" icon-"].icon-large,
+.metrouicss .button [class*=" icon-"].icon-large,
+.metrouicss .page-control > ul > li [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss a.big [class^="icon-"],
+.metrouicss button.big [class^="icon-"],
+.metrouicss .button.big [class^="icon-"],
+.metrouicss .page-control > ul > li.big [class^="icon-"],
+.metrouicss a.big [class*=" icon-"],
+.metrouicss button.big [class*=" icon-"],
+.metrouicss .button.big [class*=" icon-"],
+.metrouicss .page-control > ul > li.big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss li [class^="icon-"],
+.metrouicss li [class*=" icon-"]
+  display inline-block
+  width 1.2em
+  text-align center
+
+.metrouicss li [class^="icon-"].icon-large,
+.metrouicss li [class*=" icon-"].icon-large
+  width 1.5625em
+
+.metrouicss ol.icons li [class^="icon-"],
+.metrouicss ol.icons li [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+
+.metrouicss a [class^="icon-"].right,
+.metrouicss button [class^="icon-"].right,
+.metrouicss .button [class^="icon-"].right,
+.metrouicss .page-control > ul > li [class^="icon-"].right,
+.metrouicss a [class*=" icon-"].right,
+.metrouicss button [class*=" icon-"].right,
+.metrouicss .button [class*=" icon-"].right,
+.metrouicss .page-control > ul > li [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss .toolbar [class^="icon-"],
+.metrouicss .toolbar [class*=" icon-"]
+  margin 0 !important
+
+.metrouicss .image-button [class^="icon-"],
+.metrouicss .image-button [class*=" icon-"]
+  position absolute
+  right 0
+  margin-left 32px
+  padding 5px
+  height 100%
+  top 0px
+  box-sizing border-box
+  border 1px transparent solid
+  z-index 2
+  margin 0
+  font-size 16px
+
+.metrouicss .shortcut > .icon [class^="icon-"],
+.metrouicss .shortcut > .icon [class*=" icon-"]
+  font-size 32px
+  line-height 32px
+  height 32px
+  margin 0 !important
+
+.metrouicss *,
+.metrouicss *:after,
+.metrouicss *:before
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
+
+.metrouicss .page:before,
+.metrouicss .page:after
+  display table
+  content ""
+
+.metrouicss .page .page-header .page-header-content h1,
+.metrouicss .page .page-header .page-header-content h2,
+.metrouicss .page .page-header .page-header-content h3,
+.metrouicss .page .page-header .page-header-content h4,
+.metrouicss .page .page-header .page-header-content h5
+  position absolute
+  margin 0
+  padding 0
+  left 20px
+  bottom 0
+
+.metrouicss .page .page-header .page-header-content .user-login .avatar img,
+.metrouicss .page .page-header .page-header-content .user-login .avatar [class^="icon-"],
+.metrouicss .page .page-header .page-header-content .user-login .avatar [class*=" icon-"]
+  width 100%
+  height 100%
+
+.metrouicss .page .page-header .page-header-content .user-login .avatar [class^="icon-"],
+.metrouicss .page .page-header .page-header-content .user-login .avatar [class*=" icon-"]
+  margin-top 2px
+  font-size 30px
+  line-height 30px
+  display block
+
+.metrouicss .page.secondary .page-header .page-header-content h1,
+.metrouicss .page.secondary .page-header .page-header-content h2,
+.metrouicss .page.secondary .page-header .page-header-content h3,
+.metrouicss .page.secondary .page-header .page-header-content h4,
+.metrouicss .page.secondary .page-header .page-header-content h5
+  position absolute
+  margin 0
+  padding 0
+  left 120px
+  bottom 0
+
+.metrouicss .page.snapped .page .page-header .page-header-content h1,
+.metrouicss .page.snapped .page .page-header .page-header-content h2,
+.metrouicss .page.snapped .page .page-header .page-header-content h3,
+.metrouicss .page.snapped .page .page-header .page-header-content h4,
+.metrouicss .page.snapped .page .page-header .page-header-content h5
+  margin-left 20px
+
+.metrouicss .page.with-sidebar .page-region:before,
+.metrouicss .page.with-sidebar .page-region:after
+  display table
+  content ""
+
+.metrouicss .error-bar,
+.metrouicss .warning-bar,
+.metrouicss .info-bar
+  position fixed
+  top 0
+  left 0
+  right 0
+  padding 10px 20px
+  color #fff
+  min-height 100px
+
+.metrouicss .modern-ui-logo,
+.metrouicss .metro-ui-logo
+  height 28px
+  width 28px
+  display block
+  background-image url(data:image/png
+  -webkit-background-size cover
+  -moz-background-size cover
+  -o-background-size cover
+  background-size cover
+
+.metrouicss button,
+.metrouicss .button
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  font-size 14px
+  display inline-block
+  padding 4px 12px
+  line-height 20px
+  text-align center
+  vertical-align middle !important
+  min-width 90px
+  min-height 32px
+  height 32px
+  background-color #ccc
+  border 1px transparent solid
+  color #353535
+  margin-right 10px
+  margin-bottom 10px
+  border-raduis 0
+  cursor pointer
+  width auto
+  *zoom 1
+
+.metrouicss button:before,
+.metrouicss .button:before,
+.metrouicss button:after,
+.metrouicss .button:after
+  display table
+  content ""
+
+.metrouicss button:after,
+.metrouicss .button:after
+  clear both
+
+.metrouicss button.standart,
+.metrouicss .button.standart
+  min-width 90px
+  min-height 32px
+
+.metrouicss button:active,
+.metrouicss .button:active,
+.metrouicss button.default:active,
+.metrouicss .button.default:active
+  top 1px
+  left 1px
+
+.metrouicss button:disabled,
+.metrouicss .button:disabled,
+.metrouicss button.disabled,
+.metrouicss .button.disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss button.default,
+.metrouicss .button.default
+  background-color #008287
+  color #fff
+
+.metrouicss button:focus,
+.metrouicss .button:focus
+  outline 0
+  border 1px #353535 dotted
+
+.metrouicss a.button:hover,
+.metrouicss a.button:active
+  color inherit
+
+.metrouicss button.mini,
+.metrouicss .button.mini,
+.metrouicss .tool-button.mini
+  min-height 20px
+  min-width 20px
+  height 14px
+  font-size .75em !important
+  padding-top 0px !important
+
+.metrouicss button.big,
+.metrouicss .button.big,
+.metrouicss .tool-button.big
+  min-height 48px
+  height 48px
+  font-size 1.2em
+
+.metrouicss .tool-button [class^="icon-"],
+.metrouicss .tool-button [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+
+.metrouicss .tool-button [class^="icon-"].icon-large,
+.metrouicss .tool-button [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss .tool-button.big [class^="icon-"],
+.metrouicss .tool-button.big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss .tool-button [class^="icon-"].right,
+.metrouicss .tool-button [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss .tool-button:before,
+.metrouicss .tool-button:after
+  display table
+  content ""
+
+.metrouicss .tool-button:active,
+.metrouicss .tool-button.default:active
+  top 1px
+  left 1px
+
+.metrouicss .tool-button:disabled,
+.metrouicss .tool-button.disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss .toolbar a,
+.metrouicss .toolbar button
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  font-size 14px
+  display inline-block
+  padding 4px 12px
+  line-height 20px
+  vertical-align middle !important
+  min-width 90px
+  background-color #ccc
+  border 1px transparent solid
+  color #353535
+  margin-right 10px
+  margin-bottom 10px
+  border-raduis 0
+  cursor pointer
+  width auto
+  *zoom 1
+  min-width 32px
+  min-height 32px
+  width 32px
+  height 32px
+  text-align center
+  position relative
+  padding 0
+  margin-right 0px
+
+.metrouicss .toolbar a.mini,
+.metrouicss .toolbar button.mini
+  min-height 20px
+  min-width 20px
+  height 14px
+  font-size .75em !important
+  padding-top 0px !important
+  min-width 22px
+  width 22px
+  min-height 20px
+  min-width 20px
+  height 14px
+  font-size .75em !important
+  padding-top 0px !important
+
+.metrouicss .toolbar a.big,
+.metrouicss .toolbar button.big
+  min-height 48px
+  height 48px
+  font-size 1.2em
+  min-width 48px
+  width 48px
+  min-height 48px
+  height 48px
+  font-size 1.2em
+
+.metrouicss .toolbar a [class^="icon-"],
+.metrouicss .toolbar button [class^="icon-"],
+.metrouicss .toolbar a [class*=" icon-"],
+.metrouicss .toolbar button [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+
+.metrouicss .toolbar a [class^="icon-"].icon-large,
+.metrouicss .toolbar button [class^="icon-"].icon-large,
+.metrouicss .toolbar a [class*=" icon-"].icon-large,
+.metrouicss .toolbar button [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss .toolbar a.big [class^="icon-"],
+.metrouicss .toolbar button.big [class^="icon-"],
+.metrouicss .toolbar a.big [class*=" icon-"],
+.metrouicss .toolbar button.big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss .toolbar a [class^="icon-"].right,
+.metrouicss .toolbar button [class^="icon-"].right,
+.metrouicss .toolbar a [class*=" icon-"].right,
+.metrouicss .toolbar button [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss .toolbar a:before,
+.metrouicss .toolbar button:before,
+.metrouicss .toolbar a:after,
+.metrouicss .toolbar button:after
+  display table
+  content ""
+
+.metrouicss .toolbar a:after,
+.metrouicss .toolbar button:after
+  clear both
+
+.metrouicss .toolbar a.standart,
+.metrouicss .toolbar button.standart
+  min-width 90px
+  min-height 32px
+
+.metrouicss .toolbar a:active,
+.metrouicss .toolbar button:active,
+.metrouicss .toolbar a.default:active,
+.metrouicss .toolbar button.default:active
+  top 1px
+  left 1px
+
+.metrouicss .toolbar a:disabled,
+.metrouicss .toolbar button:disabled,
+.metrouicss .toolbar a.disabled,
+.metrouicss .toolbar button.disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss .toolbar a.default,
+.metrouicss .toolbar button.default
+  background-color #008287
+  color #fff
+
+.metrouicss .toolbar a:focus,
+.metrouicss .toolbar button:focus
+  outline 0
+  border 1px #353535 dotted
+
+.metrouicss .toolbar a img,
+.metrouicss .toolbar button img
+  width 16px
+  height 16px
+  top 8px
+
+.metrouicss .toolbar:before,
+.metrouicss .toolbar:after
+  display table
+  content ""
+
+.metrouicss .toolbar-vertical a,
+.metrouicss .toolbar-vertical button
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  font-size 14px
+  display inline-block
+  padding 4px 12px
+  line-height 20px
+  vertical-align middle !important
+  min-width 90px
+  background-color #ccc
+  border 1px transparent solid
+  color #353535
+  margin-right 10px
+  margin-bottom 10px
+  border-raduis 0
+  cursor pointer
+  width auto
+  *zoom 1
+  min-width 32px
+  min-height 32px
+  width 32px
+  height 32px
+  text-align center
+  position relative
+  padding 0
+  margin-bottom 5px
+
+.metrouicss .toolbar-vertical a.mini,
+.metrouicss .toolbar-vertical button.mini
+  min-height 20px
+  min-width 20px
+  height 14px
+  font-size .75em !important
+  padding-top 0px !important
+  min-width 22px
+  width 22px
+  min-height 20px
+  min-width 20px
+  height 14px
+  font-size .75em !important
+  padding-top 0px !important
+
+.metrouicss .toolbar-vertical a.big,
+.metrouicss .toolbar-vertical button.big
+  min-height 48px
+  height 48px
+  font-size 1.2em
+  min-width 48px
+  width 48px
+  min-height 48px
+  height 48px
+  font-size 1.2em
+
+.metrouicss .toolbar-vertical a [class^="icon-"],
+.metrouicss .toolbar-vertical button [class^="icon-"],
+.metrouicss .toolbar-vertical a [class*=" icon-"],
+.metrouicss .toolbar-vertical button [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+
+.metrouicss .toolbar-vertical a [class^="icon-"].icon-large,
+.metrouicss .toolbar-vertical button [class^="icon-"].icon-large,
+.metrouicss .toolbar-vertical a [class*=" icon-"].icon-large,
+.metrouicss .toolbar-vertical button [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss .toolbar-vertical a.big [class^="icon-"],
+.metrouicss .toolbar-vertical button.big [class^="icon-"],
+.metrouicss .toolbar-vertical a.big [class*=" icon-"],
+.metrouicss .toolbar-vertical button.big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss .toolbar-vertical a [class^="icon-"].right,
+.metrouicss .toolbar-vertical button [class^="icon-"].right,
+.metrouicss .toolbar-vertical a [class*=" icon-"].right,
+.metrouicss .toolbar-vertical button [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss .toolbar-vertical a:before,
+.metrouicss .toolbar-vertical button:before,
+.metrouicss .toolbar-vertical a:after,
+.metrouicss .toolbar-vertical button:after
+  display table
+  content ""
+
+.metrouicss .toolbar-vertical a:after,
+.metrouicss .toolbar-vertical button:after
+  clear both
+
+.metrouicss .toolbar-vertical a.standart,
+.metrouicss .toolbar-vertical button.standart
+  min-width 90px
+  min-height 32px
+
+.metrouicss .toolbar-vertical a:active,
+.metrouicss .toolbar-vertical button:active,
+.metrouicss .toolbar-vertical a.default:active,
+.metrouicss .toolbar-vertical button.default:active
+  top 1px
+  left 1px
+
+.metrouicss .toolbar-vertical a:disabled,
+.metrouicss .toolbar-vertical button:disabled,
+.metrouicss .toolbar-vertical a.disabled,
+.metrouicss .toolbar-vertical button.disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss .toolbar-vertical a.default,
+.metrouicss .toolbar-vertical button.default
+  background-color #008287
+  color #fff
+
+.metrouicss .toolbar-vertical a:focus,
+.metrouicss .toolbar-vertical button:focus
+  outline 0
+  border 1px #353535 dotted
+
+.metrouicss .toolbar-vertical a img,
+.metrouicss .toolbar-vertical button img
+  width 16px
+  height 16px
+  top 8px
+
+.metrouicss .toolbar-vertical:before,
+.metrouicss .toolbar-vertical:after
+  display table
+  content ""
+
+.metrouicss .image-button img,
+.metrouicss .image-button:active img
+  position absolute
+  right 0
+  margin-left 32px
+  padding 5px
+  height 100%
+  top 0px
+  margin-left 0px
+  box-sizing border-box
+  border 1px transparent solid
+  z-index 2
+
+.metrouicss .button-set a,
+.metrouicss .button-set button
+  margin-right 0
+  text-align center
+
+.metrouicss .button-set a img,
+.metrouicss .button-set button img
+  background-color transparent
+
+.metrouicss .pagination > ul li a [class^="icon-"],
+.metrouicss .pagination > ul li a [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+
+.metrouicss .pagination > ul li a [class^="icon-"].icon-large,
+.metrouicss .pagination > ul li a [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss .pagination > ul li a.big [class^="icon-"],
+.metrouicss .pagination > ul li a.big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss .pagination > ul li a [class^="icon-"].right,
+.metrouicss .pagination > ul li a [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss .pagination > ul li a:before,
+.metrouicss .pagination > ul li a:after
+  display table
+  content ""
+
+.metrouicss .pagination > ul li a:active,
+.metrouicss .pagination > ul li a.default:active
+  top 1px
+  left 1px
+
+.metrouicss .pagination > ul li a:disabled,
+.metrouicss .pagination > ul li a.disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss .pagination > ul li.first a,
+.metrouicss .pagination > ul li.prev a,
+.metrouicss .pagination > ul li.next a,
+.metrouicss .pagination > ul li.last a
+  font-size 20pt
+
+.metrouicss .pagination > ul li.first a:before,
+.metrouicss .pagination > ul li.prev a:before,
+.metrouicss .pagination > ul li.next a:before,
+.metrouicss .pagination > ul li.last a:before
+  position absolute
+  left 50%
+  top 0
+  margin-left -7px
+  content "\25C4"
+  font-size 1.5em
+
+.metrouicss .pagination > ul li.disabled a,
+.metrouicss .pagination > ul li.spaces a
+  background-color #f2f2f2
+  color #1e1e1e
+  cursor not-allowed
+
+.metrouicss .pagination > ul li.disabled a:active,
+.metrouicss .pagination > ul li.spaces a:active
+  top 0
+  left 0
+
+.metrouicss table thead tr th,
+.metrouicss table thead tr td
+  display table-cell
+  vertical-align bottom
+  padding-bottom 5px
+  padding-top 10px
+  padding-left 5px
+  border-bottom 1px #ddd solid
+  border-right 1px #ddd solid
+  border-left 1px transparent solid
+  border-top 1px transparent solid
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 11pt
+  letter-spacing 0.01em
+  line-height 13pt
+  font-smooth always
+  color rgba(0, 0, 0, 0.6)
+  text-align left
+
+.metrouicss table thead tr th.right,
+.metrouicss table thead tr td.right
+  text-align right
+  padding-right 10px
+
+.metrouicss table thead tr th.last,
+.metrouicss table thead tr td.last
+  border-right 1px transparent solid
+
+.metrouicss table thead tr th:last-child,
+.metrouicss table thead tr td:last-child
+  border-right 1px transparent solid
+
+.metrouicss table tbody tr.info td,
+.metrouicss table tbody tr.warning td,
+.metrouicss table tbody tr.error td,
+.metrouicss table tbody tr.success td
+  color #ffffff !important
+
+.metrouicss table.hovered thead tr th:hover,
+.metrouicss table.hovered thead tr td:hover
+  border 1px #1c98cc solid
+  background rgba(28, 183, 236, 0.1)
+
+.metrouicss .oh,
+.metrouicss .ot,
+.metrouicss .tt
+  float left
+  margin 0 2% 2% 0
+  width 48%
+
+.metrouicss [class*="span"]:before,
+.metrouicss [class*="span"]:after
+  display table
+  content ""
+
+.metrouicss .grid .row:before,
+.metrouicss .grid .row:after
+  display table
+  content ""
+
+.metrouicss .grid:before,
+.metrouicss .grid:after
+  display table
+  content ""
+
+.metrouicss .grid > .row::before,
+.metrouicss .grid > .row::after
+  content normal
+
+.metrouicss td[class*="span"],
+.metrouicss th[class*="span"]
+  display table-cell !important
+  float none !important
+  padding 0 !important
+
+.metrouicss .hero-unit:before,
+.metrouicss .hero-unit:after
+  display table
+  content ""
+
+.metrouicss .nav-bar .nav-bar-inner .element,
+.metrouicss .nav-bar .nav-bar-inner a .element
+  position relative
+  margin 5px
+  line-height 20px
+  height 20px
+  float left
+  display inline-block
+  padding 0
+  font-weight normal
+  font-size 10pt
+  color #fff
+
+.metrouicss .nav-bar .nav-bar-inner .element.brand,
+.metrouicss .nav-bar .nav-bar-inner a .element.brand
+  font-size 1.15em
+
+.metrouicss .nav-bar .nav-bar-inner .element img,
+.metrouicss .nav-bar .nav-bar-inner a .element img
+  height 100%
+
+.metrouicss .nav-bar .nav-bar-inner .element a,
+.metrouicss .nav-bar .nav-bar-inner a .element a
+  line-height 20px
+  height 20px
+  font-size 10pt
+
+.metrouicss .nav-bar .nav-bar-inner .element [class^="icon-"]:before,
+.metrouicss .nav-bar .nav-bar-inner a .element [class^="icon-"]:before,
+.metrouicss .nav-bar .nav-bar-inner .element [class*=" icon-"]:before,
+.metrouicss .nav-bar .nav-bar-inner a .element [class*=" icon-"]:before
+  display inline-block
+  margin 0
+  padding 0
+  display block
+  float left
+  margin 0 5px
+
+.metrouicss .nav-bar .nav-bar-inner > .divider,
+.metrouicss .nav-bar .nav-bar-inner > ul.menu > li.divider
+  position relative
+  margin 5px
+  line-height 20px
+  height 20px
+  float left
+  display inline-block
+  padding 0
+  font-weight normal
+  font-size 10pt
+  color #fff
+  width 1px
+  border-right 1px #e6e6e6 solid
+
+.metrouicss .nav-bar .nav-bar-inner > .divider.brand,
+.metrouicss .nav-bar .nav-bar-inner > ul.menu > li.divider.brand
+  font-size 1.15em
+
+.metrouicss .nav-bar .nav-bar-inner > .divider img,
+.metrouicss .nav-bar .nav-bar-inner > ul.menu > li.divider img
+  height 100%
+
+.metrouicss .nav-bar .nav-bar-inner > .divider a,
+.metrouicss .nav-bar .nav-bar-inner > ul.menu > li.divider a
+  line-height 20px
+  height 20px
+  font-size 10pt
+
+.metrouicss .nav-bar .nav-bar-inner > .divider [class^="icon-"]:before,
+.metrouicss .nav-bar .nav-bar-inner > ul.menu > li.divider [class^="icon-"]:before,
+.metrouicss .nav-bar .nav-bar-inner > .divider [class*=" icon-"]:before,
+.metrouicss .nav-bar .nav-bar-inner > ul.menu > li.divider [class*=" icon-"]:before
+  display inline-block
+  margin 0
+  padding 0
+  display block
+  float left
+  margin 0 5px
+
+.metrouicss .nav-bar .nav-bar-inner:before,
+.metrouicss .nav-bar .nav-bar-inner:after
+  display table
+  content ""
+
+.metrouicss .nav-bar:before,
+.metrouicss .nav-bar:after
+  display table
+  content ""
+
+.metrouicss .nav-bar.fixed-top,
+.metrouicss .nav-bar.fixed-bottom
+  position fixed
+  z-index 10000
+  left 0
+
+.metrouicss .page-sidebar > ul > li a.lead,
+.metrouicss .page-sidebar > ul > li.lead a,
+.metrouicss .page-sidebar > ul > li.lead
+  font-weight bold
+
+.metrouicss .replies > div,
+.metrouicss .replies > li,
+.metrouicss .replies > span
+  position relative
+  margin 0 10px 10px 0
+  display block
+  float none !important
+  width 310px
+  height 150px
+  font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 300
+  font-size 11pt
+  letter-spacing 0.02em
+  line-height 14pt
+  font-smooth always
+  height auto
+  min-height 70px
+  padding 10px
+
+.metrouicss .replies > div .avatar,
+.metrouicss .replies > li .avatar,
+.metrouicss .replies > span .avatar
+  width 50px
+  height 50px
+  overflow hidden
+  display table-cell
+  vertical-align middle !important
+  background #6e6e6e
+  box-shadow-bottom inset 0px 0px 3px #fff
+
+.metrouicss .replies > div .avatar img,
+.metrouicss .replies > li .avatar img,
+.metrouicss .replies > span .avatar img
+  width 100%
+  height 100%
+  display inline-block !important
+  vertical-align middle !important
+
+.metrouicss .replies > div .reply,
+.metrouicss .replies > li .reply,
+.metrouicss .replies > span .reply
+  margin-left 60px
+  margin-top -50px
+
+.metrouicss .replies > div .reply .date,
+.metrouicss .replies > li .reply .date,
+.metrouicss .replies > span .reply .date
+  float right
+  font-size 55%
+  color #ffffff
+
+.metrouicss .replies > div .reply .author,
+.metrouicss .replies > li .reply .author,
+.metrouicss .replies > span .reply .author
+  color #ffffff
+
+.metrouicss .replies > div .reply .text,
+.metrouicss .replies > li .reply .text,
+.metrouicss .replies > span .reply .text
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  color #000000
+  color #ffffff
+  line-height 16px
+
+.metrouicss .replies > div .reply .text:hover,
+.metrouicss .replies > li .reply .text:hover,
+.metrouicss .replies > span .reply .text:hover
+  color rgba(0, 0, 0, 0.8)
+  color #ffffff
+
+.metrouicss .replies > div .reply .text:active,
+.metrouicss .replies > li .reply .text:active,
+.metrouicss .replies > span .reply .text:active
+  color rgba(0, 0, 0, 0.4)
+
+.metrouicss .replies > div .sticker,
+.metrouicss .replies > li .sticker,
+.metrouicss .replies > span .sticker
+  width 0
+  height 0
+  border-top 10px solid #ffffff
+  position absolute
+  display block
+  z-index 1000
+
+.metrouicss .replies > div .sticker.sticker-color-blue,
+.metrouicss .replies > li .sticker.sticker-color-blue,
+.metrouicss .replies > span .sticker.sticker-color-blue
+  border-color #2d89ef !important
+
+.metrouicss .replies > div .sticker.sticker-color-blueLight,
+.metrouicss .replies > li .sticker.sticker-color-blueLight,
+.metrouicss .replies > span .sticker.sticker-color-blueLight
+  border-color #eff4ff !important
+
+.metrouicss .replies > div .sticker.sticker-color-blueDark,
+.metrouicss .replies > li .sticker.sticker-color-blueDark,
+.metrouicss .replies > span .sticker.sticker-color-blueDark
+  border-color #2b5797 !important
+
+.metrouicss .replies > div .sticker.sticker-color-green,
+.metrouicss .replies > li .sticker.sticker-color-green,
+.metrouicss .replies > span .sticker.sticker-color-green
+  border-color #00a300 !important
+
+.metrouicss .replies > div .sticker.sticker-color-greenLight,
+.metrouicss .replies > li .sticker.sticker-color-greenLight,
+.metrouicss .replies > span .sticker.sticker-color-greenLight
+  border-color #99b433 !important
+
+.metrouicss .replies > div .sticker.sticker-color-greenDark,
+.metrouicss .replies > li .sticker.sticker-color-greenDark,
+.metrouicss .replies > span .sticker.sticker-color-greenDark
+  border-color #1e7145 !important
+
+.metrouicss .replies > div .sticker.sticker-color-red,
+.metrouicss .replies > li .sticker.sticker-color-red,
+.metrouicss .replies > span .sticker.sticker-color-red
+  border-color #b91d47 !important
+
+.metrouicss .replies > div .sticker.sticker-color-yellow,
+.metrouicss .replies > li .sticker.sticker-color-yellow,
+.metrouicss .replies > span .sticker.sticker-color-yellow
+  border-color #ffc40d !important
+
+.metrouicss .replies > div .sticker.sticker-color-orange,
+.metrouicss .replies > li .sticker.sticker-color-orange,
+.metrouicss .replies > span .sticker.sticker-color-orange
+  border-color #e3a21a !important
+
+.metrouicss .replies > div .sticker.sticker-color-orangeDark,
+.metrouicss .replies > li .sticker.sticker-color-orangeDark,
+.metrouicss .replies > span .sticker.sticker-color-orangeDark
+  border-color #da532c !important
+
+.metrouicss .replies > div .sticker.sticker-color-pink,
+.metrouicss .replies > li .sticker.sticker-color-pink,
+.metrouicss .replies > span .sticker.sticker-color-pink
+  border-color #9f00a7 !important
+
+.metrouicss .replies > div .sticker.sticker-color-pinkDark,
+.metrouicss .replies > li .sticker.sticker-color-pinkDark,
+.metrouicss .replies > span .sticker.sticker-color-pinkDark
+  border-color #7e3878 !important
+
+.metrouicss .replies > div .sticker.sticker-color-purple,
+.metrouicss .replies > li .sticker.sticker-color-purple,
+.metrouicss .replies > span .sticker.sticker-color-purple
+  border-color #603cba !important
+
+.metrouicss .replies > div .sticker.sticker-color-darken,
+.metrouicss .replies > li .sticker.sticker-color-darken,
+.metrouicss .replies > span .sticker.sticker-color-darken
+  border-color #1d1d1d !important
+
+.metrouicss .replies > div .sticker.sticker-color-white,
+.metrouicss .replies > li .sticker.sticker-color-white,
+.metrouicss .replies > span .sticker.sticker-color-white
+  border-color #ffffff !important
+
+.metrouicss .replies > div .sticker.sticker-color-lighten,
+.metrouicss .replies > li .sticker.sticker-color-lighten,
+.metrouicss .replies > span .sticker.sticker-color-lighten
+  border-color #d5e7ec !important
+
+.metrouicss .replies > div .sticker.sticker-color-grayDark,
+.metrouicss .replies > li .sticker.sticker-color-grayDark,
+.metrouicss .replies > span .sticker.sticker-color-grayDark
+  border-color #525252 !important
+
+.metrouicss .replies > div .sticker.sticker-color-magenta,
+.metrouicss .replies > li .sticker.sticker-color-magenta,
+.metrouicss .replies > span .sticker.sticker-color-magenta
+  border-color #ff0097 !important
+
+.metrouicss .replies > div .sticker.sticker-color-teal,
+.metrouicss .replies > li .sticker.sticker-color-teal,
+.metrouicss .replies > span .sticker.sticker-color-teal
+  border-color #00aba9 !important
+
+.metrouicss .replies > div .sticker.sticker-color-redLight,
+.metrouicss .replies > li .sticker.sticker-color-redLight,
+.metrouicss .replies > span .sticker.sticker-color-redLight
+  border-color #ee1111 !important
+
+.metrouicss .replies > div .sticker.sticker-left,
+.metrouicss .replies > li .sticker.sticker-left,
+.metrouicss .replies > span .sticker.sticker-left
+  border-left 20px solid transparent !important
+  left -20px
+
+.metrouicss .replies > div .sticker.sticker-right,
+.metrouicss .replies > li .sticker.sticker-right,
+.metrouicss .replies > span .sticker.sticker-right
+  border-right 20px solid transparent !important
+  right -20px
+
+.metrouicss .notices > div,
+.metrouicss .notices > li,
+.metrouicss .notices > span,
+.metrouicss .notices > a
+  width 100%
+  height 90px
+  display block
+  overflow hidden
+  position relative
+  margin-bottom 10px
+
+.metrouicss .notices > div .notice-header,
+.metrouicss .notices > li .notice-header,
+.metrouicss .notices > span .notice-header,
+.metrouicss .notices > a .notice-header,
+.metrouicss .notices > div .header,
+.metrouicss .notices > li .header,
+.metrouicss .notices > span .header,
+.metrouicss .notices > a .header
+  position relative
+  background transparent
+  font-family 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 200
+  font-size 20pt
+  letter-spacing 0.01em
+  line-height 22pt
+  font-smooth always
+  font-size 12pt
+  margin-top 5px
+  margin-left 10px
+
+.metrouicss .notices > div .notice-text,
+.metrouicss .notices > li .notice-text,
+.metrouicss .notices > span .notice-text,
+.metrouicss .notices > a .notice-text,
+.metrouicss .notices > div .text,
+.metrouicss .notices > li .text,
+.metrouicss .notices > span .text,
+.metrouicss .notices > a .text
+  position relative
+  margin-right 50px
+  margin-left 10px
+  color #fff
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 300
+  font-size 8pt
+  font-smooth always
+  line-height 10pt
+  margin-top -5px
+  line-height 16px
+
+.metrouicss .notices > div .notice-icon,
+.metrouicss .notices > li .notice-icon,
+.metrouicss .notices > span .notice-icon,
+.metrouicss .notices > a .notice-icon,
+.metrouicss .notices > div .icon,
+.metrouicss .notices > li .icon,
+.metrouicss .notices > span .icon,
+.metrouicss .notices > a .icon
+  position absolute
+  right 10px
+  bottom 5px
+
+.metrouicss .notices > div .notice-icon img,
+.metrouicss .notices > li .notice-icon img,
+.metrouicss .notices > span .notice-icon img,
+.metrouicss .notices > a .notice-icon img,
+.metrouicss .notices > div .icon img,
+.metrouicss .notices > li .icon img,
+.metrouicss .notices > span .icon img,
+.metrouicss .notices > a .icon img
+  width 32px
+  height 32px
+
+.metrouicss .notices > div .notice-image,
+.metrouicss .notices > li .notice-image,
+.metrouicss .notices > span .notice-image,
+.metrouicss .notices > a .notice-image,
+.metrouicss .notices > div .image,
+.metrouicss .notices > li .image,
+.metrouicss .notices > span .image,
+.metrouicss .notices > a .image
+  max-height 48px
+  width 48px
+  height 48px
+  margin 20px 20px 20px 20px
+  float left
+
+.metrouicss .notices > div .notice-image img,
+.metrouicss .notices > li .notice-image img,
+.metrouicss .notices > span .notice-image img,
+.metrouicss .notices > a .notice-image img,
+.metrouicss .notices > div .image img,
+.metrouicss .notices > li .image img,
+.metrouicss .notices > span .image img,
+.metrouicss .notices > a .image img
+  width 48px
+  height 48px
+
+.metrouicss .notices > div .close,
+.metrouicss .notices > li .close,
+.metrouicss .notices > span .close,
+.metrouicss .notices > a .close
+  z-index 2
+  position absolute
+  top 5px
+  right 10px
+  cursor pointer
+  font-weight bold
+  text-decoration none
+  color #fff !important
+
+.metrouicss .notices > div .close::before,
+.metrouicss .notices > li .close::before,
+.metrouicss .notices > span .close::before,
+.metrouicss .notices > a .close::before
+  content "\00d7"
+  color #fff !important
+
+.metrouicss .notices > div .image-large,
+.metrouicss .notices > li .image-large,
+.metrouicss .notices > span .image-large,
+.metrouicss .notices > a .image-large
+  width 88px
+  height 88px
+  margin 1px 10px 1px 1px
+  overflow hidden
+  float left
+
+.metrouicss .notices > div .image-large img,
+.metrouicss .notices > li .image-large img,
+.metrouicss .notices > span .image-large img,
+.metrouicss .notices > a .image-large img
+  width 88px
+  height 88px
+
+.metrouicss .tile .tile-content h1,
+.metrouicss .tile .tile-content h2,
+.metrouicss .tile .tile-content h3,
+.metrouicss .tile .tile-content h4,
+.metrouicss .tile .tile-content h5,
+.metrouicss .tile .tile-content h6
+  font-size 14pt
+
+.metrouicss .tile .tile-content h1,
+.metrouicss .tile .tile-content h2,
+.metrouicss .tile .tile-content h3,
+.metrouicss .tile .tile-content h4,
+.metrouicss .tile .tile-content h5,
+.metrouicss .tile .tile-content h6,
+.metrouicss .tile .tile-content p
+  padding 0
+  margin 0
+  line-height 24px
+
+.metrouicss .tile .tile-content h1:hover,
+.metrouicss .tile .tile-content h2:hover,
+.metrouicss .tile .tile-content h3:hover,
+.metrouicss .tile .tile-content h4:hover,
+.metrouicss .tile .tile-content h5:hover,
+.metrouicss .tile .tile-content h6:hover,
+.metrouicss .tile .tile-content p:hover
+  color #ffffff
+
+.metrouicss .tile.image > .tile-content,
+.metrouicss .tile.image-slider > .tile-content
+  padding 0
+
+.metrouicss .tile.image > .tile-content > img,
+.metrouicss .tile.image-slider > .tile-content > img
+  width 100%
+  height auto
+  min-height 100%
+  max-width 100%
+
+.metrouicss .tile .brand,
+.metrouicss .tile .tile-status
+  position absolute
+  bottom 0
+  left 0
+  right 0
+  min-height 30px
+  background-color transparent
+  *zoom 1
+
+.metrouicss .tile .brand:before,
+.metrouicss .tile .tile-status:before,
+.metrouicss .tile .brand:after,
+.metrouicss .tile .tile-status:after
+  display table
+  content ""
+
+.metrouicss .tile .brand:after,
+.metrouicss .tile .tile-status:after
+  clear both
+
+.metrouicss .tile .brand > .badge,
+.metrouicss .tile .tile-status > .badge
+  position absolute
+  bottom 0
+  right 0
+  right 5px
+  margin-bottom 0
+  color #ffffff
+  width 34px
+  height 28px
+  text-align center
+  font-family 'Segoe UI Semibold', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 600
+  font-size 11pt
+  letter-spacing 0.01em
+  line-height 13pt
+  font-smooth always
+  padding-top 3px
+
+.metrouicss .tile .brand > .badge.activity,
+.metrouicss .tile .tile-status > .badge.activity
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.alert,
+.metrouicss .tile .tile-status > .badge.alert
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.available,
+.metrouicss .tile .tile-status > .badge.available
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.unavailable,
+.metrouicss .tile .tile-status > .badge.unavailable
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.away,
+.metrouicss .tile .tile-status > .badge.away
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.busy,
+.metrouicss .tile .tile-status > .badge.busy
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.newMessage,
+.metrouicss .tile .tile-status > .badge.newMessage
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.paused,
+.metrouicss .tile .tile-status > .badge.paused
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.playing,
+.metrouicss .tile .tile-status > .badge.playing
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.error,
+.metrouicss .tile .tile-status > .badge.error
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .badge.attention,
+.metrouicss .tile .tile-status > .badge.attention
+  background #2d89ef url(data:image/png
+
+.metrouicss .tile .brand > .name,
+.metrouicss .tile .tile-status > .name
+  position absolute
+  bottom 0
+  left 0
+  margin-bottom 5px
+  margin-left 15px
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  color #ffffff
+
+.metrouicss .tile .brand > .name:hover,
+.metrouicss .tile .tile-status > .name:hover
+  color #ffffff
+
+.metrouicss .tile .brand > .name > [class*=icon-],
+.metrouicss .tile .tile-status > .name > [class*=icon-]
+  font-size 24px
+
+.metrouicss .tile .brand > .icon,
+.metrouicss .tile .tile-status > .icon
+  margin 5px 15px
+  width 32px
+  height 32px
+
+.metrouicss .tile .brand > .icon > [class*=icon-],
+.metrouicss .tile .tile-status > .icon > [class*=icon-]
+  font-size 32px
+
+.metrouicss .tile .brand > .icon > img,
+.metrouicss .tile .tile-status > .icon > img
+  width 100%
+  height 100%
+
+.metrouicss .tile .brand > img ~ .text,
+.metrouicss .tile .tile-status > img ~ .text
+  position absolute
+  left 60px
+  width auto
+
+.metrouicss .tile .brand > .text,
+.metrouicss .tile .tile-status > .text
+  position relative
+  left 8px
+  top 5px
+  right 50px
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  color #000000
+  color #ffffff
+  line-height 14px
+  width 60%
+  padding 0
+  margin 0
+
+.metrouicss .tile .brand > .text:hover,
+.metrouicss .tile .tile-status > .text:hover
+  color rgba(0, 0, 0, 0.8)
+  color #ffffff
+
+.metrouicss .tile .brand > .text:active,
+.metrouicss .tile .tile-status > .text:active
+  color rgba(0, 0, 0, 0.4)
+
+.metrouicss .input-control > input[type=text],
+.metrouicss .input-control > input[type=email],
+.metrouicss .input-control > input[type=url],
+.metrouicss .input-control > input[type=phone],
+.metrouicss .input-control > input[type=password],
+.metrouicss .input-control > input[type=number],
+.metrouicss .input-control > input[type=time],
+.metrouicss .input-control > select,
+.metrouicss .input-control > textarea
+  border 1px #bababa solid
+  width 100%
+  padding 4px 6px 6px 5px
+  background-color #fff
+  outline 0
+  margin-right 32px
+  min-height 32px
+  position relative
+
+.metrouicss .input-control > input[type=text].with-helper,
+.metrouicss .input-control > input[type=email].with-helper,
+.metrouicss .input-control > input[type=url].with-helper,
+.metrouicss .input-control > input[type=phone].with-helper,
+.metrouicss .input-control > input[type=password].with-helper,
+.metrouicss .input-control > input[type=number].with-helper,
+.metrouicss .input-control > input[type=time].with-helper,
+.metrouicss .input-control > select.with-helper,
+.metrouicss .input-control > textarea.with-helper
+  padding 4px 32px 6px 5px
+
+.metrouicss .input-control > input[type=text]:disabled,
+.metrouicss .input-control > input[type=email]:disabled,
+.metrouicss .input-control > input[type=url]:disabled,
+.metrouicss .input-control > input[type=phone]:disabled,
+.metrouicss .input-control > input[type=password]:disabled,
+.metrouicss .input-control > input[type=number]:disabled,
+.metrouicss .input-control > input[type=time]:disabled,
+.metrouicss .input-control > select:disabled,
+.metrouicss .input-control > textarea:disabled
+  background-color #eaeaea
+
+.metrouicss .input-control > input[type=text]:focus,
+.metrouicss .input-control > input[type=email]:focus,
+.metrouicss .input-control > input[type=url]:focus,
+.metrouicss .input-control > input[type=phone]:focus,
+.metrouicss .input-control > input[type=password]:focus,
+.metrouicss .input-control > input[type=number]:focus,
+.metrouicss .input-control > input[type=time]:focus,
+.metrouicss .input-control > select:focus,
+.metrouicss .input-control > textarea:focus
+  border-color #000
+
+.metrouicss .input-control > input[type=text]::-ms-clear,
+.metrouicss .input-control > input[type=email]::-ms-clear,
+.metrouicss .input-control > input[type=url]::-ms-clear,
+.metrouicss .input-control > input[type=phone]::-ms-clear,
+.metrouicss .input-control > input[type=number]::-ms-clear,
+.metrouicss .input-control > input[type=time]::-ms-clear
+  display none
+
+.metrouicss .input-control.text input[type=text]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=text]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=password]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=password]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=email]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=email]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=phone]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=phone]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=number]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=number]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=time]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=time]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=url]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=url]:not(:focus) ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=text]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=text]:not(:focus) ~ .helper,
+.metrouicss .input-control.text input[type=password]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=password]:not(:focus) ~ .helper,
+.metrouicss .input-control.text input[type=email]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=email]:not(:focus) ~ .helper,
+.metrouicss .input-control.text input[type=phone]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=phone]:not(:focus) ~ .helper,
+.metrouicss .input-control.text input[type=number]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=number]:not(:focus) ~ .helper,
+.metrouicss .input-control.text input[type=time]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=time]:not(:focus) ~ .helper,
+.metrouicss .input-control.text input[type=url]:not(:focus) ~ .helper,
+.metrouicss .input-control.password input[type=url]:not(:focus) ~ .helper
+  display none
+
+.metrouicss .input-control.text input[type=text]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=text]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=password]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=password]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=email]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=email]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=phone]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=phone]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=number]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=number]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=time]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=time]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=url]:focus ~ [class^="btn-"],
+.metrouicss .input-control.password input[type=url]:focus ~ [class^="btn-"],
+.metrouicss .input-control.text input[type=text]:focus ~ .helper,
+.metrouicss .input-control.password input[type=text]:focus ~ .helper,
+.metrouicss .input-control.text input[type=password]:focus ~ .helper,
+.metrouicss .input-control.password input[type=password]:focus ~ .helper,
+.metrouicss .input-control.text input[type=email]:focus ~ .helper,
+.metrouicss .input-control.password input[type=email]:focus ~ .helper,
+.metrouicss .input-control.text input[type=phone]:focus ~ .helper,
+.metrouicss .input-control.password input[type=phone]:focus ~ .helper,
+.metrouicss .input-control.text input[type=number]:focus ~ .helper,
+.metrouicss .input-control.password input[type=number]:focus ~ .helper,
+.metrouicss .input-control.text input[type=time]:focus ~ .helper,
+.metrouicss .input-control.password input[type=time]:focus ~ .helper,
+.metrouicss .input-control.text input[type=url]:focus ~ .helper,
+.metrouicss .input-control.password input[type=url]:focus ~ .helper
+  display block
+
+.metrouicss .input-control.text input[type=text]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=text]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=password]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=password]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=email]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=email]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=phone]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=phone]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=number]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=number]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=time]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=time]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=url]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.password input[type=url]:not(:focus) ~ [class^="btn-"]:active,
+.metrouicss .input-control.text input[type=text]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=text]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.text input[type=password]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=password]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.text input[type=email]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=email]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.text input[type=phone]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=phone]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.text input[type=number]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=number]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.text input[type=time]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=time]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.text input[type=url]:not(:focus) ~ .helper:active,
+.metrouicss .input-control.password input[type=url]:not(:focus) ~ .helper:active
+  display block
+
+.metrouicss .input-control input[type=text] ~ .btn-search,
+.metrouicss .input-control input[type=text] ~ .btn-date
+  display block !important
+
+.metrouicss .input-control.text .helper,
+.metrouicss .input-control.password .helper,
+.metrouicss .input-control.text [class^="btn-"],
+.metrouicss .input-control.password [class^="btn-"]
+  font-family "iconFont" !important
+  background #fff
+  top 2px
+  width 26px !important
+  height 27px !important
+  min-width 26px !important
+  min-height 27px !important
+  cursor pointer
+  color #000
+  position absolute
+  left 100%
+  margin-left -28px
+  display block
+  border 1px #fff solid
+
+.metrouicss .input-control.text .helper:before,
+.metrouicss .input-control.password .helper:before,
+.metrouicss .input-control.text [class^="btn-"]:before,
+.metrouicss .input-control.password [class^="btn-"]:before
+  font-size 10pt !important
+  position absolute
+  color #000 !important
+  font-family "iconFont" !important
+  left 6px
+  top 4px
+
+.metrouicss .input-control.text .helper:hover,
+.metrouicss .input-control.password .helper:hover,
+.metrouicss .input-control.text [class^="btn-"]:hover,
+.metrouicss .input-control.password [class^="btn-"]:hover
+  background #d9d9d9
+
+.metrouicss .input-control.text .helper:active,
+.metrouicss .input-control.password .helper:active,
+.metrouicss .input-control.text [class^="btn-"]:active,
+.metrouicss .input-control.password [class^="btn-"]:active
+  background-color #000
+
+.metrouicss .input-control.text .helper:active:before,
+.metrouicss .input-control.password .helper:active:before,
+.metrouicss .input-control.text [class^="btn-"]:active:before,
+.metrouicss .input-control.password [class^="btn-"]:active:before
+  color #fff
+
+.metrouicss .input-control.password .helper,
+.metrouicss .input-control.password .btn-reveal
+  background #ffffff url(data:image/png
+
+.metrouicss .input-control.password .helper:hover,
+.metrouicss .input-control.password .btn-reveal:hover
+  background #ffffff url(data:image/png
+
+.metrouicss .input-control.text .helper:before,
+.metrouicss .input-control.text .btn-clear:before
+  content "\e089"
+
+.metrouicss input[type=button],
+.metrouicss input[type=reset],
+.metrouicss input[type=submit]
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 9pt
+  font-smooth always
+  line-height 11pt
+  font-size 14px
+  display inline-block
+  padding 4px 12px
+  line-height 20px
+  text-align center
+  vertical-align middle !important
+  min-width 90px
+  min-height 32px
+  height 32px
+  background-color #ccc
+  border 1px transparent solid
+  color #353535
+  margin-right 10px
+  margin-bottom 10px
+  border-raduis 0
+  cursor pointer
+  width auto
+  *zoom 1
+  border-radius 0
+
+.metrouicss input[type=button] [class^="icon-"],
+.metrouicss input[type=reset] [class^="icon-"],
+.metrouicss input[type=submit] [class^="icon-"],
+.metrouicss input[type=button] [class*=" icon-"],
+.metrouicss input[type=reset] [class*=" icon-"],
+.metrouicss input[type=submit] [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+
+.metrouicss input[type=button] [class^="icon-"].icon-large,
+.metrouicss input[type=reset] [class^="icon-"].icon-large,
+.metrouicss input[type=submit] [class^="icon-"].icon-large,
+.metrouicss input[type=button] [class*=" icon-"].icon-large,
+.metrouicss input[type=reset] [class*=" icon-"].icon-large,
+.metrouicss input[type=submit] [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss input[type=button].big [class^="icon-"],
+.metrouicss input[type=reset].big [class^="icon-"],
+.metrouicss input[type=submit].big [class^="icon-"],
+.metrouicss input[type=button].big [class*=" icon-"],
+.metrouicss input[type=reset].big [class*=" icon-"],
+.metrouicss input[type=submit].big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss input[type=button] [class^="icon-"].right,
+.metrouicss input[type=reset] [class^="icon-"].right,
+.metrouicss input[type=submit] [class^="icon-"].right,
+.metrouicss input[type=button] [class*=" icon-"].right,
+.metrouicss input[type=reset] [class*=" icon-"].right,
+.metrouicss input[type=submit] [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss input[type=button]:before,
+.metrouicss input[type=reset]:before,
+.metrouicss input[type=submit]:before,
+.metrouicss input[type=button]:after,
+.metrouicss input[type=reset]:after,
+.metrouicss input[type=submit]:after
+  display table
+  content ""
+
+.metrouicss input[type=button]:after,
+.metrouicss input[type=reset]:after,
+.metrouicss input[type=submit]:after
+  clear both
+
+.metrouicss input[type=button].standart,
+.metrouicss input[type=reset].standart,
+.metrouicss input[type=submit].standart
+  min-width 90px
+  min-height 32px
+
+.metrouicss input[type=button]:active,
+.metrouicss input[type=reset]:active,
+.metrouicss input[type=submit]:active,
+.metrouicss input[type=button].default:active,
+.metrouicss input[type=reset].default:active,
+.metrouicss input[type=submit].default:active
+  top 1px
+  left 1px
+
+.metrouicss input[type=button]:disabled,
+.metrouicss input[type=reset]:disabled,
+.metrouicss input[type=submit]:disabled,
+.metrouicss input[type=button].disabled,
+.metrouicss input[type=reset].disabled,
+.metrouicss input[type=submit].disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss input[type=button].default,
+.metrouicss input[type=reset].default,
+.metrouicss input[type=submit].default
+  background-color #008287
+  color #fff
+
+.metrouicss input[type=button]:focus,
+.metrouicss input[type=reset]:focus,
+.metrouicss input[type=submit]:focus
+  outline 0
+  border 1px #353535 dotted
+
+.metrouicss input[type=button].mini,
+.metrouicss input[type=reset].mini,
+.metrouicss input[type=submit].mini
+  min-height 20px
+  min-width 20px
+  height 14px
+  font-size .75em !important
+  padding-top 0px !important
+
+.metrouicss input[type=button].big,
+.metrouicss input[type=reset].big,
+.metrouicss input[type=submit].big
+  min-height 48px
+  height 48px
+  font-size 1.2em
+
+.metrouicss .image-collection:before,
+.metrouicss .image-collection:after
+  display table
+  content ""
+
+.metrouicss .image-collection > div,
+.metrouicss .image-collection > li
+  width 220px
+  height 121px
+  overflow hidden
+  margin-right 20px
+  margin-bottom 20px
+  position relative
+  box-shadow inset 0px 0px 1px #FFFFCC
+  float left
+  background #cccccc url(data:image/png
+  display table-cell
+  vertical-align middle !important
+  text-align center
+
+.metrouicss .image-collection > div > img,
+.metrouicss .image-collection > li > img
+  width 100%
+  height auto
+  min-height 100%
+  max-width 100%
+
+.metrouicss .image-collection > div > .overlay,
+.metrouicss .image-collection > li > .overlay
+  position absolute
+  width 100%
+  height 55px
+  overflow hidden
+  background-color #1e1e1e
+  color #fff
+  font-size 8pt
+  text-align left
+  line-height 12px
+  padding 5px 10px
+  opacity .8
+  bottom -55px
+
+.metrouicss .image-collection > div:hover .overlay,
+.metrouicss .image-collection > li:hover .overlay
+  -webkit-transform translate(0, -55px)
+  -ms-transform translate(0, -55px)
+  -o-transform translate(0, -55px)
+  -moz-transform translate(0, -55px)
+  transform translate(0, -55px)
+  -webkit-transition all 0.3s ease
+  -moz-transition all 0.3s ease
+  -o-transition all 0.3s ease
+  -ms-transition all 0.3s ease
+  transition all 0.3s easet
+
+.metrouicss code,
+.metrouicss pre
+  padding 0 3px 2px
+  font-family 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 300
+  font-size 11pt
+  letter-spacing 0.02em
+  line-height 14pt
+  font-smooth always
+  font-size 10pt
+  color #525252
+
+.metrouicss .page-control:before,
+.metrouicss .page-control:after
+  display table
+  content ""
+
+.metrouicss .page-control > ul:before,
+.metrouicss .page-control > ul:after
+  display table
+  content ""
+
+.metrouicss .page-control > ul li.active span,
+.metrouicss .page-control > ul li.active a
+  color #2d89ef
+
+.metrouicss .page-control > ul li span,
+.metrouicss .page-control > ul li a
+  text-decoration none
+  display block
+  float left
+  padding 5px 10px
+  color #1e1e1e
+  font-family 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif
+  font-weight 400
+  font-size 11pt
+  letter-spacing 0.01em
+  line-height 13pt
+  font-smooth always
+  cursor pointer
+  outline 0
+
+.metrouicss .page-control .menu-pull,
+.metrouicss .page-control .menu-pull-bar
+  display none
+
+.metrouicss .accordion:before,
+.metrouicss .accordion:after
+  display table
+  content ""
+
+.metrouicss .static-rating:before,
+.metrouicss .static-rating:after
+  display table
+  content ""
+
+.metrouicss .rating:before,
+.metrouicss .rating:after
+  display table
+  content ""
+
+.metrouicss .progress-bar:before,
+.metrouicss .progress-bar:after
+  display table
+  content ""
+
+.metrouicss .listview li .data .static-rating.small,
+.metrouicss .listview li .data .progress-bar
+  margin-bottom 3px
+
+.metrouicss .listview li:before,
+.metrouicss .listview li:after
+  display table
+  content ""
+
+.metrouicss .listview.image li .data .static-rating.small,
+.metrouicss .listview.image li .data .progress-bar
+  margin-bottom 10px
+
+.metrouicss .listview:before,
+.metrouicss .listview:after
+  display table
+  content ""
+
+.metrouicss .slider:active .complete,
+.metrouicss .slider:active + .marker:active .complete
+  background-color #25bbc4
+
+.metrouicss .dialog .header button [class^="icon-"],
+.metrouicss .dialog .header button [class*=" icon-"]
+  vertical-align -10%
+  font-size 1.2em
+  display inline-block
+  margin-right 5px
+  font-size 11px
+
+.metrouicss .dialog .header button [class^="icon-"].icon-large,
+.metrouicss .dialog .header button [class*=" icon-"].icon-large
+  line-height .9em
+
+.metrouicss .dialog .header button.big [class^="icon-"],
+.metrouicss .dialog .header button.big [class*=" icon-"]
+  font-size 1.3333333333333333em
+
+.metrouicss .dialog .header button [class^="icon-"].right,
+.metrouicss .dialog .header button [class*=" icon-"].right
+  margin-left 5px
+  margin-right auto
+
+.metrouicss .dialog .header button:before,
+.metrouicss .dialog .header button:after
+  display table
+  content ""
+
+.metrouicss .dialog .header button:active,
+.metrouicss .dialog .header button.default:active
+  top 1px
+  left 1px
+
+.metrouicss .dialog .header button:disabled,
+.metrouicss .dialog .header button.disabled
+  background-color #eaeaea
+  color #bebebe
+  cursor not-allowed
+
+.metrouicss .calendar td,
+.metrouicss .calendar th
+  padding 4px
+  width 14.285% !important
+  font-size 10pt
+  border 1px #ccc solid !important
+  text-align center
+
