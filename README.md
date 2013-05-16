@@ -1,25 +1,27 @@
 # angular-brunch-seed-livescript
-### A started project for AngularJS using Brunch.io wiht LiveScript
+### A started project for AngularJS using Brunch.io, Bower, Bootstrap/MetroUI wiht LiveScript
 
 [AngularJS](http://angularjs.org) + [Brunch](http://brunch.io) + [LiveScript](http://livescript.net/)
+[Bower](https://github.com/bower/bower) + [Metro UI CSS](http://metroui.org.ua/)
 
 Features:
 * LiveScript / Sass / SCSS / Stylus automatically compiled on save
 * auto-reload during development saves you from manually refreshing the page
 * Javascript / CSS minification for production
-* [testacular](https://github.com/vojtajina/testacular) integration for
+* [karma](https://github.com/karma-runner/karma) integration for
   unit tests
-* Bootstrap integration with themes.
+* Bootstrap integration with themes / Metro UI
+* Jade for tempaltes
 
-## How to use angular-brunch-seed-livescript
+## How to use angular-brunch-seed
 
-* `git clone https://github.com/clkao/angular-brunch-seed-livescript.git` to clone the **angular-brunch-seed-livescript** repository
+* `git clone https://github.com/flyakite/angular-brunch-seed-livescript.git` to clone the **angular-brunch-seed-livescript** repository
 * `cd angular-brunch-seed-livescript`
 * `./scripts/init.sh` to install node packages
 
 or if you have **Brunch** installed run:
 
-`brunch new myapp --skeleton https://github.com/clkao/angular-brunch-seed-livescript`
+`brunch new myapp --skeleton https://github.com/flyakite/angular-brunch-seed-livescript`
 
 ### Running the app during development
 
@@ -33,7 +35,7 @@ Then navigate your browser to [http://localhost:3333](http://localhost:3333)
 
 ### Running unit tests
 
-* `./scripts/test.sh` to run unit test with [testacular](https://github.com/vojtajina/testacular)
+* `./scripts/test.sh` to run unit test with [karma](https://github.com/karma-runner/karma)
 * Open the browser you would like to test to [http://localhost:3334](http://localhost:3334)
 
 Notes:
@@ -67,29 +69,25 @@ fetch the changes and merge them into your project with git.
     _public/                  --> Contains generated file for servering the app
                                   These files should not be edited directly
     app/                      --> all of the files to be used in production
-      app/                    --> base directory for app
+      assets                  --> a place for static assets. These files will be copied to
+                                  the public directory un-modified.
+        css/                 --> css files
+        font/                 --> font files
+        img/                  --> image files
+        test                  --> angular-scenario test
+        index.html            --> app layout file (the main html template file of the app)
+      partials                --> angular view partials using jade(partial html templates)
+        app
+          nav.jade
+          partial1.jade
+          partial2.jade
+      scripts/                --> base directory for app use livescript
         controllers.ls        --> application controllers
         directives.ls         --> custom angular directives
         filters.ls            --> custom angular filters
         services.ls           --> custom angular services
-      assets                  --> a place for static assets. These files will be copied to
-                                  the public directory un-modified.
-        font/                 --> [fontawesome](http://fortawesome.github.com/Font-Awesome/) rendering icons
-          fontawesome-webfont.*
-        img/                  --> image files
-        partials/             --> angular view partials (partial html templates)
-          nav.html
-          partial1.html
-          partial2.html
-        index.html            --> app layout file (the main html template file of the app)
-
       styles/                 --> all custom styles. Acceptable files types inculde:
                                   less, sass, scss and stylus
-        themes/               --> a place for custom themes
-          custom/             --> starter theme **NOTE the underscore (_). Files begining with an
-                                  underscore will not automatically be compiled, they must be imported.
-            _override.less    --> styles that should beloaded after bootstrap.
-            _variables.less   --> bootstrap variables to be used during the compilation process
         app.less              --> a file for importing styles.
       app.ls                  --> application definition and routes.
       init.ls                 --> application bootstrap
@@ -117,33 +115,16 @@ fetch the changes and merge them into your project with git.
         angular/              --> angular testing libraries
           angular-mocks.js    --> mocks that replace certain angular services in tests
 
-    vendor/
-      scripts/                --> angular and 3rd party javascript libraries
-        angular/                  files are compiled to `vendor.js`
-          angular.js          --> the latest angular js
-          angular-*.js        --> angular add-on modules
-          version.txt         --> version number
-        bootstrap/            --> for responsive layout
-          bootstrap-collapse.js
-        console-helper.js     --> makes it safe to do `console.log()` always
-        jquery-1.7.2.js       --> for use with bootstrap-collapse
-      styles/                 --> sapling / sapling themes and 3 party CSS
-        bootstrap/            --> boostrap files - **NOTE** the underscore prevents the
-          _*.less                 files from automatically being added to application.css
-        sapling               --> extends boostrap
-          _*.less
-        themes                --> themes to extend Bootstrap
-          default             --> the default bootstrap theme
-            _overrides.less
-            _variables.less
-          sapling             --> supplemental theme
-            _overrides.less
-            _variables.less
-          smokey              --> supplemental theme
-            _overrides.less
-            _variables.less
-## Contact
+    vendor/                   --> vendor packages controlled by Bower
+      _bootstrap/             --> bootstrap files. **NOTE** the underscore prevents the
+                                  files from automatically being added to application.
+      _font-awesome/          
+      angular/                    files are compiled to `vendor.js`
+        angular.js            --> the latest angular js
+        angular-*.js          --> angular add-on modules
+        bower.json            --> Bower angular control
+      jquery/                 --> jquery if needed(with bootstrap-collapse or metro ui)
+      metro/                  --> metro ui less, font, and js
+      
 
-Coming soon...
 
-For more information on angular please check out http://sapling.scotchmedia.com/
