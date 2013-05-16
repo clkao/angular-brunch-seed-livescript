@@ -17,7 +17,7 @@ mod.AppCtrl = <[$scope $location $resource $rootScope]> ++ (s, $location, $resou
   #   getClass('/orders') # returns ''
   #
   s.getClass = (id) ->
-    if s.activeNavId.substring 0 id.length is id
+    if s.activeNavId.substring(0 id.length) is id
       'active'
     else
       ''
