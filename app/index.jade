@@ -7,6 +7,7 @@ html(lang='en')
     meta(name='description', content='')
     meta(name='author', content='')
     title(ng-bind-template='{{pageTitle}}')
+    link(rel='stylesheet', href='/css/vendor.css')
     link(rel='stylesheet', href='/css/app.css')
     //-script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
     //if lte IE 7
@@ -20,26 +21,38 @@ html(lang='en')
       };
     script(src='/js/vendor.js')
     script(src='/js/app.js')
-  body(ng-controller='AppCtrl')
-    .wrapper
-      .navbar
-        .navbar-inner
-          .container
-            a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            .brand
-              a(href='/') Angular Brunch Seed
-            .nav-collapse
-              div(ng-include="'/partials/app/nav.html'")
-      .container.main-content
-        div(ng-view)
-        div Angular Brunch seed app: v<span app-version></span>
-      .push
+  body.metrouicss(ng-controller='AppCtrl')
+    .page
+      .nav-bar
+        .nav-bar-inner.padding10
+          span.pull-menu
+          a(href='/') 
+            span.element.brand
+              span Angular Brunch Seed 
+              small 0.1.1
+          .divider
 
-    footer.footer
-      .container
-        p
-          small
-            a(href='https://github.com/scotch/angular-brunch-seed') angular-brunch-seed | source
+    .page.secondary 
+      .page-header 
+        .page-header-content
+          h1 Views
+            small demo
+      .page-region
+        .page-region-content
+          .grid
+            .row
+              div(ng-include="'/partials/app/nav.html'")
+          .grid
+            .row
+              div(ng-view)
+          .grid
+            .row
+              div Angular Brunch seed app: v<span app-version></span>
+
+    footer.page
+      .nav-bar
+        .nav-bar-inner.padding10
+          .element
+            a.fg-color-white(href='https://github.com/flyakite/angular-brunch-seed') angular-brunch-seed | source
+          .element
+            a.fg-color-white(href='http://metroui.org.ua') Metro UI CSS

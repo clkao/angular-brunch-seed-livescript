@@ -19,6 +19,7 @@ because the organization holds the copyright.*
 
 Kyle Finley <kylefinley@gmail.com>
 Chia-liang Kao <clkao@clkao.org>
+Shih-Wen Su <sushi@summeridea.com>
 
 ### Maintainer
 
